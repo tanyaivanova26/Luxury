@@ -1,11 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Luxury</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Roboto:wght@300;400;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__menu">
+                        <a class="header__logo" href="#">
+                            <img src="images/logo.svg" alt="logo" class="header__logo-img">
+                        </a>
+                        <nav class="menu">
+                            <ul class=" header__links links">
+                                <li><a class="link" href="#">Home</a></li>
+                                <li><a class="link" href="#">Rooms</a></li>
+                                <li><a class="link" href="#">Single Room</a></li>
+                                <li><a class="link" href="#">Booking</a></li>
+                                <li><a class="link" href="#">Our News</a></li>
+                                <li><a class="link" href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="container">
+                    <div class="header__main-inner">
+                        <div class="header__subtitle">
+                            LUXURY HOTEL & BEST RESORT
+                        </div>
+                        <hr class="haader__hr">
+                        <h1 class="title">
+                            ENJOY A LUXURY EXPERIENCE
+                        </h1>
+                        <button class="header__btn">
+                            ROOMS & SUITES
+                        </button>
+                        <div class="header__form">
+                            <form action="" class="form">
+                                <div class="form__box">
+                                    <div class="form__box-input">
+                                        <label for="">
+                                            CHECK-IN
+                                            <input type="text">
+                                        </label>
+                                        <select name="" id="">
+                                            <option value="">Jan</option>
+                                            <option value="">Feb</option>
+                                            <option value="">Mar</option>
+                                            <option value="">Apr</option>
+                                            <option value="">May</option>
+                                            <option value="">Jun</option>
+                                            <option value="">Jul</option>
+                                            <option value="">Aug</option>
+                                            <option value="">Sep</option>
+                                            <option value="">Okt</option>
+                                            <option value="">Nov</option>
+                                            <option value="">Dec</option>
+                                        </select>
+                                    </div>
+                                    <div class="form__box-input">
+                                        <label for="">
+                                            CHECK-OUT
+                                            <input type="text">
+                                        </label>
+                                        <select name="" id="">
+                                            <option value="">Jan</option>
+                                            <option value="">Feb</option>
+                                            <option value="">Mar</option>
+                                            <option value="">Apr</option>
+                                            <option value="">May</option>
+                                            <option value="">Jun</option>
+                                            <option value="">Jul</option>
+                                            <option value="">Aug</option>
+                                            <option value="">Sep</option>
+                                            <option value="">Okt</option>
+                                            <option value="">Nov</option>
+                                            <option value="">Dec</option>
+                                        </select>
+                                    </div>
+                                    <div class="form__box-input">
+                                        <label for="">
+                                            GUESTS
+                                            <input type="text">
+                                        </label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button class="form__button">
+                                        CHECK AVAILABILITY
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="about">
+            <div class="about__inner">
+                <div class="about__description">
+                    <div class="subtitle about__subtitle">
+                        HOTEL BAYVIEW
+                    </div>
+                    <h2 class="about__title">
+                        Pearl of the Adriatic
+                    </h2>
+                    <p class="about__text">Hotel Bayview is a luxurious boutique hotel located in the heart of Rovinj’s
+                        lively Old town. Offering views of the harbor, St. Catherine's Island or the Main Square, each
+                        suite is fitted with design furniture and local art. Guests can relax at 2 on-site bars and a
+                        brasserie style restaurant.</p>
+                    <button class="about-btn">ABOUT US</button>
+                </div>
+                <div class="about__photos">
+                    <img src="images/cozy-modern-bedroom-3144580@2x.png" alt="bedroom" class="about__photos-bedroom">
+                    <img src="images/white-curtains-on-window-wall-2598638@2x.png" alt="window" class="about__photos-window">
+                </div>
+                <img src="images/bathroom-interior-1457847@2x.png" alt="bathroom" class="about__photos-bathroom">
+            </div>
+        </section>
+        <section class="rooms">
+            <div class="rooms__inner">
+                <div class="subtitle">HOTEL BAYVIEW</div>
+                <hr class="rooms__hr">
+                <h2 class="rooms__title">Best Rooms</h2>
+                <div class="rooms__suites">
+                    <div class="suites__adriatic">
+                        <img src="images/adriatic.jpg" alt="Adriatic suite" class="suites__adriatic-photo">
+                        <p class="suites__name suites__name-adriatic">Adriatic Suite</p>
+                        <div class="suits__adriatic-description">
+                            <h3 class="suites-adriatic-title">Adriatic Suite</h3>
+                            <div class="suits__adriatic-profile">
+                                <div class="raiting">7.5</div>
+                                <div class="review">5 Reviews</div>
+                                <div class="suites__guests">
+                                    <img src="images/guest.svg" alt="icon-guest" class="suites__guests-icon">
+                                    <div class="suites__guests-number">3 guests</div>
+                                </div>
+                                <div class="suites__space">
+                                    <img src="images/space.svg" alt="icon-space" class="suites__space-icon">
+                                    <div class="suites__space-number">57 m²</div>
+                                </div>
+                            </div>
+                            <p class="suites__adriatic-text">Offering 2 balconies and views of Rovinj's Main Square and
+                                the lively waterfront and the main promenade.</p>
+                            <button class="suites__adriatic-button">
+                                BOOK NOW FROM 300$
+                            </button>
+                        </div>
+                    </div>
+                    <div class="suites__photos">
+                        <div class="suits__photos-first">
+                            <img src="images/atelier@2x.jpg" alt="atelier" class="suites__photo suites__photo_button">
+                            <p class="suites__name suites__name-atelier">
+                                Atelier
+                            </p>
+                            <img src="images/piazza@2x.jpg" alt="piazza" class="suites__photo">
+                            <p class="suites__name suites__name-piazza">
+                                Piazza
+                            </p>
+                        </div>
+                        <div class="suits__photos-second">
+                            <img src="images/gallery@2x.jpg" alt="gallery" class="suites__photo suites__photo_button">
+                            <p class="suites__name suites__name-gallery">
+                                Gallery
+                            </p>
+                            <img src="images/grand-piazza-suite@2x.jpg" alt="grand-piazza-suite" class="suites__photo">
+                            <p class="suites__name suites__name-grand">
+                                 Grand Piazza Suite
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="best-resorts">
+            <div class="best-resorts__inner">
+                <div class="best-resorts__photo">
+                    <div class="best-resorts__photos">
+                        <img src="images/woman@2x.jpg" alt="woman" class="resort__photo">
+                        <img src="images/table@2x.jpg" alt="table" class="resort__photo">
+                    </div>
+                    <div class="best-resorts__photos">
+                        <img src="images/balcony@2x.jpg" alt="balcony" class="resort__photo">
+                        <img src="images/inside@2x.jpg" alt="inside" class="resort__photo">
+                    </div>
+                </div>
+                <div class="best-resorts__text">
+                    <div class="subtitle best-resorts__subtitle">LUXURY HOTEL & BEST RESORT</div>
+                    <h2 class="best-resorts__title">Pearl of the <span>Adriatic</span></h2>
+                    <div class="best-resorts__description">
+                        <p class="best-resorts__description_text">
+                            Decorated with original art works by&nbsp;contemporary artists, all suites are
+                            air-conditioned and consist of&nbsp;a&nbsp;SMART&nbsp;TV, mini-bar and coffee/tea making
+                            facilities.</p>
+                        <p class="best-resorts__description_right">
+                            Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna&nbsp;et.
+                            Quisque euismod orci ut&nbsp;et&nbsp;lobortis. Blandit vel sapien vitae, condimentum
+                            ultricies magna et&nbsp;orci ut&nbsp;et&nbsp;lobortis, Phasellus enim.
+                        </p>
+                    </div>
+                    <button class="best-resorts__btn">CHECK ALL PACKAGES</button>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="advantages__text">
+                The closest rocky public beach is a 15-minute walk away.
+                <br>
+                Pula Airport is at a distance of 25 mi away.
+                <br>
+                Free private parking is available outside the pedestrian zone.
+            </div>
+        </section>
+        <footer class="footer">
+            <nav class="menu">
+                <ul class="footer__nav links">
+                    <li><a href="" class="link footer__link">Home</a></li>
+                    <li><a href="" class="link footer__link">About Us</a></li>
+                    <li><a href="" class="link footer__link">Services</a></li>
+                    <li><a href="" class="link footer__link">Booking</a></li>
+                    <li><a href="" class="link footer__link">Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
 </body>
+
 </html>
