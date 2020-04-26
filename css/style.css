@@ -36,8 +36,8 @@ body{
 }
 
 .header__links{
-    margin: -4px -50px 0px 0px;
-    width: 470px;
+    width: 475px;
+    margin-top: -4px;
 }
 
 .links{
@@ -52,47 +52,17 @@ body{
     line-height: 1.95;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    letter-spacing: -0.11px;
+    letter-spacing: 0.6px;
     margin-right: 30px;
     padding-bottom: 3px;
+}
+.links:last-child{
+    margin-right: -54px;
 }
 
 .menu a:hover{
     color: #fff;
     border-bottom: 1px solid #fff;
-}
-
-.header__main{
-    background-image: url('../images/header-background@2x.jpg');
-    min-height: 576px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-
-.header__main-inner{
-    text-align: center;
-    padding-top: 72px;
-}
-
-.header__subtitle{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    font-size: 9px;
-    line-height: 2.27;
-    letter-spacing: 1.65px;
-}
-
-hr{
-    width: 22px;
-    height: 2px;
-    border: none;
-}
-
-.haader__hr{
-    background-color: #fff;
-    margin-top: 13px;
 }
 
 .title{
@@ -105,6 +75,11 @@ hr{
     margin: 15px auto 32px;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 button{
     font-family: 'Roboto', sans-serif;
     font-size: 8.5px;
@@ -113,37 +88,6 @@ button{
     letter-spacing: 0.85px;
     outline: none;
     cursor: pointer;
-}
-
-.header__btn{
-    width: 144px;
-    height: 36px;
-    border: solid 1.5px #ffffff;
-    background-color: transparent;
-    color: #fff;
-    margin-bottom: 93px;
-}
-
-.header__form{
-    margin: 0px 0px 100px 139px;
-}
-
-form{
-    display: flex;
-    width: 540px;
-    height: 100px;
-}
-
-.form__box{
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 18px 54px 0px 43px;
-}
-
-.form__box-input{
-    display: flex;
-    margin-right: -7px;
 }
 
 input{
@@ -157,6 +101,7 @@ input{
     line-height: 0.55;
     letter-spacing: -2.25px;
     padding: 6px 6px 6px 10px;
+    margin: 3px -4px 0 0px;
     outline: none;
     text-align: center;
 }
@@ -168,6 +113,7 @@ label{
     color: #a3a3a3;
     line-height: 2.28;
     letter-spacing: 1.25px;
+    margin: -3px 5px -1px 0px;
 }
 
 select{
@@ -179,42 +125,10 @@ select{
     line-height: 2.28;
     letter-spacing: -0.54px;
     color: #1c1c1c;
-    margin:26px 23px 0 0;
+    margin:32px 24px 0 -9px;
     -webkit-appearance: none;
     border: none;
     outline: none;
-}
-
-.form__button{
-    background-color: #1c1c1c;
-    border: none;
-    width: 135px;
-    height: 100px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 9px;
-    line-height: 1.72;
-    letter-spacing: 1.53px;
-    color: #fff;
-    text-align: center;
-    padding: 34px 28px 39px 30px;
-    outline: none;
-    cursor: pointer;
-}
-
-.about{
-    height: 504px;
-    background-color: #fff;
-}
-
-.about__inner{
-    display: flex;
-    margin-left: 316px;
-}
-
-.about__description{
-    text-align: center;
-    max-width: 360px;
 }
 
 .subtitle{
@@ -226,20 +140,12 @@ select{
     letter-spacing: 1.16px;
 }
 
-.about__subtitle{
-    margin: 89px 54px 16px 0;
-}
-
 h2{
     color: #1c1c1c;
     font-family: 'Gilda Display', serif;
     font-weight: 400;
     font-size: 60px;
     line-height: 1.01;
-}
-
-.about__title{
-    margin: 16px 3px 0 0;
 }
 
 p{
@@ -251,94 +157,10 @@ p{
     color: #878787;
 }
 
-.about-btn{
-    color: #fff;
-    background-color: #c19b76;
-    width: 103px;
-    height: 33px;
-    border: none;
-    margin-right: 3px;
-    letter-spacing: 1.4px;
-}
-
-.about__photos{
-    position: relative;
-}
-
-.about__photos-bedroom{
-    width: 326px;
-    height: 218px;
-    z-index: 10;
-    margin-top: 75px;
-    margin-left: 64px;
-    position: absolute;
-}
-
-.about__photos-window{
-    width: 345px;
-    height: 230px; 
-    z-index: 20;
-    position: absolute;
-    margin-top: 249px;
-    margin-left: 22px;
-}
-
-.about__photos-bathroom{
-    width: 252px;
-    height: 341px;
-    z-index: 30;
-    position: absolute;
-    margin: 102px 3px 2px 701px;
-}
-
-.about__text{
-    margin: 15px 0px 26px -17px;
-    text-align: center;
-}
-
-.rooms{
-    height: 618px;
-    background-color:#f9f9f9;
-}
-
-.rooms__inner{
-    text-align: center;
-    margin-top: 52px;
-}
-
-.rooms__hr{
-    background-color: #878787;
-    margin: 3px auto 9px;
-}
-
-.rooms__title{
-    font-size: 41.5px;
-    line-height: 1.46;
-    margin-top: -3px;
-    margin-bottom: 26px;
-}
-
-.rooms__suites{
-    display: flex;
-    margin-left: 282px;
-}
-
-.suites__adriatic{
-    margin-right: 22px;
-    background-color: #fff;
-}
-
-.suites__adriatic-photo{
-    width: 428px;
-    height: 185px;
-    position: relative;
-    z-index: 10;
-}
-
 .suites__name{
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 8.5px;
     line-height: 2.41;
     letter-spacing: 1.4px;
@@ -347,32 +169,7 @@ p{
     text-transform: uppercase;
 }
 
-.suites__name-adriatic{
-    margin: -34px 0px 0px 22px;
-}
-
-.suites__name-atelier{
-    margin: 155px 0px 0px 21px;
-}
-
-.suites__name-piazza{
-    margin: 155px 0px 0px 246px;
-}
-
-.suites__name-gallery{
-    margin: 154px 0px 0px 21px;
-}
-
-.suites__name-grand{
-    margin: 153px 0px 0px 246px;
-}
-
-.suits__adriatic-description{
-    text-align: left;
-    padding: 26px 22px 21px;
-} 
-
-.suites-adriatic-title{
+.suites__title{
     color: #1c1c1c;
     font-family: 'Gilda Display', serif;
     font-weight: 400;
@@ -381,7 +178,7 @@ p{
     margin: 0 0 12px;
 }
 
-.suits__adriatic-profile{
+.suits__profile{
     display: flex;
     justify-content: left;
     margin-bottom: 19px;
@@ -398,7 +195,7 @@ p{
     line-height: 2.41;
     letter-spacing: -0.17px;
     text-align: center;
-    margin-right: 8px;
+    margin-right: 6px;
 }
 
 .review,
@@ -413,7 +210,6 @@ p{
     margin-right: 16px;
     letter-spacing: 0.6px;
 }
-
 
 .suites__guests{
     display: flex;
@@ -435,21 +231,7 @@ p{
     margin: 2px 7px 0 0;
 }
 
-p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 10.5px;
-    line-height: 1.95;
-    color: #878787;
-    text-align: left;
-}
-
-.suites__adriatic-text{
-    max-width: 312px;
-    margin: 0 0 16px 0;
-}
-
-.suites__adriatic-button{
+.suites__button{
     width: 166px;
     height: 35px;
     background-color: #1c1c1c;
@@ -457,105 +239,6 @@ p{
     color: #fff;
     letter-spacing: 1.4px;
     padding: 0 0px 0 6px;
-}
-
-.suits__photos-first{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 23px;
-}
-
-.suits__photos-second{
-    display: flex;
-    justify-content: space-between;
-}
-
-.suites__photo{
-    width: 203px;
-}
-
-.suites__photo_button{
-    margin-right: 22px;
-}
-
-.best-resorts{
-    width: 100%;
-    height: 480px;
-    background-color:#1c1c1c;
-}
-
-.best-resorts__inner{
-    display: flex;
-    margin: -52px 0px 0px -3px;
-}
-
-.resort__photo{
-    width: 361px;
-    height: 240px;
-}
-
-.best-resorts__photos{
-    display: flex;
-}
-
-.best-resorts__text{
-    padding: 72px 106px 85px 72px;
-}
-
-.t-resorts__subtitle{
-    color:#fff;
-    margin: -5px 1px 0px 3px;
-    letter-spacing: 0.7px;
-}
-
-.best-resorts__title{
-    color: #fff;
-    max-width: 309px;
-    margin: 7px 0px 0 4px;
-}
-
-span{
-    color: #c19b76;
-}
-
-.best-resorts__description{
-    display: flex;
-    margin: 22px 0px 19px 5px;
-}
-
-.best-resorts__description_text{
-    max-width: 265px;
-    margin-right: 40px;
-}
-
-.best-resorts__description_right{
-    max-width: 245px;
-}
-
-.best-resorts__btn{
-    margin-left: 4px;
-    color: #fff;
-    width: 165px;
-    height: 33px;
-    background-color: #151515;
-    border: none;
-    letter-spacing: 1.3px;
-}
-
-.advantages{
-    height: 195px;
-}
-
-.advantages__text{
-    margin:0 auto;
-    padding-top: 45px;
-    width: 565px;
-    font-family: 'Gilda Display', serif;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 1.79;
-    text-align: center;
-    color: #1c1c1c;
 }
 
 .footer{

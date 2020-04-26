@@ -1,0 +1,317 @@
+.header__main{
+    background-image: url('../images/main-images/header-background@2x.jpg');
+    min-height: 576px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.header__main-inner{
+    text-align: center;
+    padding-top: 72px;
+}
+
+.header__subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 9px;
+    line-height: 2.27;
+    letter-spacing: 1.65px;
+}
+
+hr{
+    width: 22px;
+    height: 2px;
+    border: none;
+}
+
+.header__hr{
+    background-color: #fff;
+    margin-top: 13px;
+}
+
+.header__btn{
+    width: 144px;
+    height: 36px;
+    border: solid 1.5px #ffffff;
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: 93px;
+}
+
+.header__form{
+    margin: 0px 0px 100px 139px;
+}
+
+form{
+    display: flex;
+    width: 540px;
+    height: 100px;
+}
+
+.form__box{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 54px 0px 43px;
+}
+
+.form__box-input{
+    display: flex;
+    margin-right: -7px;
+}
+
+.form__button{
+    background-color: #1c1c1c;
+    border: none;
+    width: 135px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 1.72;
+    letter-spacing: 1.53px;
+    color: #fff;
+    text-align: center;
+    padding: 34px 28px 39px 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.about{
+    height: 504px;
+    background-color: #fff;
+}
+
+.about__inner{
+    display: flex;
+    margin-left: 316px;
+}
+
+.about__description{
+    text-align: center;
+    max-width: 360px;
+}
+
+.about__subtitle{
+    margin: 89px 5px 16px 0;
+}
+
+about__title{
+    margin: 16px 3px 0 0;
+}
+
+.about-btn{
+    color: #fff;
+    background-color: #c19b76;
+    width: 103px;
+    height: 33px;
+    border: none;
+    margin-right: 3px;
+    letter-spacing: 1.4px;
+}
+
+.about__photos{
+    position: relative;
+}
+
+.about__photos-bedroom{
+    width: 326px;
+    height: 218px;
+    z-index: 10;
+    margin-top: 75px;
+    margin-left: 64px;
+    position: absolute;
+}
+
+.about__photos-window{
+    width: 345px;
+    height: 230px; 
+    z-index: 20;
+    position: absolute;
+    margin-top: 249px;
+    margin-left: 22px;
+}
+
+.about__photos-bathroom{
+    width: 252px;
+    height: 341px;
+    z-index: 30;
+    position: absolute;
+    margin: 102px 3px 2px 701px;
+}
+
+.about__text{
+    margin: 15px 0px 26px -17px;
+    text-align: center;
+}
+
+.rooms{
+    height: 618px;
+    background-color:#f9f9f9;
+}
+
+.rooms__inner{
+    text-align: center;
+    margin-top: 52px;
+}
+
+.rooms__hr{
+    background-color: #878787;
+    margin: 3px auto 9px;
+}
+
+.rooms__title{
+    font-size: 41.5px;
+    line-height: 1.46;
+    margin-top: -3px;
+    margin-bottom: 26px;
+}
+
+.rooms__suites{
+    display: flex;
+    margin-left: 282px;
+}
+
+.suites__adriatic{
+    margin-right: 22px;
+    background-color: #fff;
+}
+
+.suites__adriatic-photo{
+    width: 428px;
+    height: 185px;
+    position: relative;
+    z-index: 10;
+}
+
+.suites__name-adriatic{
+    margin: -32px 0px 0px 22px;
+}
+
+.suites__name-atelier{
+    margin: 155px 0px 0px 21px;
+}
+
+.suites__name-piazza{
+    margin: 155px 0px 0px 246px;
+}
+
+.suites__name-gallery{
+    margin: 154px 0px 0px 21px;
+}
+
+.suites__name-grand{
+    margin: 155px 0px 0px 246px;
+}
+
+.suits__adriatic-description{
+    text-align: left;
+    padding: 26px 22px 21px;
+} 
+
+.suites__adriatic-text{
+    max-width: 312px;
+    margin: 0 0 16px 0;
+}
+
+.suits__photos-first{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.suits__photos-second{
+    display: flex;
+    justify-content: space-between;
+}
+
+.suites__photo{
+    width: 203px;
+}
+
+.suites__photo_button{
+    margin-right: 22px;
+}
+
+.best-resorts{
+    width: 100%;
+    height: 480px;
+    background-color:#1c1c1c;
+}
+
+.best-resorts__inner{
+    display: flex;
+    margin: -52px 0px 0px -3px;
+}
+
+.resort__photo{
+    width: 361px;
+    height: 240px;
+}
+
+.best-resorts__photos{
+    display: flex;
+}
+
+.best-resorts__text{
+    padding: 72px 106px 85px 72px;
+}
+
+.best-resorts__subtitle{
+    color:#fff;
+    margin: -5px 1px 0px 3px;
+    letter-spacing: 0.65px;
+}
+
+.best-resorts__title{
+    color: #fff;
+    max-width: 309px;
+    margin: 9px 0px 0 4px;
+}
+
+span{
+    color: #c19b76;
+}
+
+.best-resorts__description{
+    display: flex;
+    margin: 20px 0px 19px 5px;
+}
+
+.best-resorts__description_text{
+    max-width: 265px;
+    margin-right: 40px;
+}
+
+.best-resorts__description_right{
+    max-width: 245px;
+}
+
+.best-resorts__btn{
+    margin-left: 4px;
+    color: #fff;
+    width: 165px;
+    height: 33px;
+    background-color: #151515;
+    border: none;
+    letter-spacing: 1.3px;
+}
+
+.advantages{
+    height: 195px;
+}
+
+.advantages__text{
+    margin:0 auto;
+    padding-top: 49px;
+    width: 565px;
+    font-family: 'Gilda Display', serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.79;
+    text-align: center;
+    color: #1c1c1c;
+    letter-spacing: -0.1px;
+}

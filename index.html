@@ -8,10 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Roboto:wght@300;400;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
-
 <body>
     <div class="wrapper">
         <header class="header">
@@ -23,9 +23,9 @@
                         </a>
                         <nav class="menu">
                             <ul class=" header__links links">
-                                <li><a class="link" href="#">Home</a></li>
-                                <li><a class="link" href="#">Rooms</a></li>
-                                <li><a class="link" href="#">Single Room</a></li>
+                                <li><a class="link" href="index.html">Home</a></li>
+                                <li><a class="link" href="rooms.html">Rooms</a></li>
+                                <li><a class="link" href="page.html">Single Room</a></li>
                                 <li><a class="link" href="#">Booking</a></li>
                                 <li><a class="link" href="#">Our News</a></li>
                                 <li><a class="link" href="#">Contact</a></li>
@@ -40,12 +40,12 @@
                         <div class="header__subtitle">
                             LUXURY HOTEL & BEST RESORT
                         </div>
-                        <hr class="haader__hr">
+                        <hr class="header__hr">
                         <h1 class="title">
                             ENJOY A LUXURY EXPERIENCE
                         </h1>
                         <button class="header__btn">
-                            ROOMS & SUITES
+                            <a href="rooms.html" class="header__button">ROOMS & SUITES</a>
                         </button>
                         <div class="header__form">
                             <form class="form">
@@ -124,10 +124,10 @@
                     <button class="about-btn">ABOUT US</button>
                 </div>
                 <div class="about__photos">
-                    <img src="images/cozy-modern-bedroom-3144580@2x.png" alt="bedroom" class="about__photos-bedroom">
-                    <img src="images/white-curtains-on-window-wall-2598638@2x.png" alt="window" class="about__photos-window">
+                    <img src="images/main-images/main-gallery@2x.jpg" alt="bedroom" class="about__photos-bedroom">
+                    <img src="images/main-images/main-window@2x.png" alt="window" class="about__photos-window">
                 </div>
-                <img src="images/bathroom-interior-1457847@2x.png" alt="bathroom" class="about__photos-bathroom">
+                <img src="images/main-images/main-bathroom@2x.png" alt="bathroom" class="about__photos-bathroom">
             </div>
         </section>
         <section class="rooms">
@@ -137,46 +137,46 @@
                 <h2 class="rooms__title">Best Rooms</h2>
                 <div class="rooms__suites">
                     <div class="suites__adriatic">
-                        <img src="images/adriatic.jpg" alt="Adriatic suite" class="suites__adriatic-photo">
+                        <img src="images/main-images/main-adriatic.jpg" alt="Adriatic suite" class="suites__adriatic-photo">
                         <p class="suites__name suites__name-adriatic">Adriatic Suite</p>
                         <div class="suits__adriatic-description">
-                            <h3 class="suites-adriatic-title">Adriatic Suite</h3>
-                            <div class="suits__adriatic-profile">
+                            <h3 class="suites__title">Adriatic Suite</h3>
+                            <div class="suits__profile">
                                 <div class="raiting">7.5</div>
                                 <div class="review">5 Reviews</div>
                                 <div class="suites__guests">
-                                    <img src="images/guest.svg" alt="icon-guest" class="suites__guests-icon">
+                                    <img src="images/icons/guest.svg" alt="icon-guest" class="suites__guests-icon">
                                     <div class="suites__guests-number">3 guests</div>
                                 </div>
                                 <div class="suites__space">
-                                    <img src="images/space.svg" alt="icon-space" class="suites__space-icon">
+                                    <img src="images/icons/space.svg" alt="icon-space" class="suites__space-icon">
                                     <div class="suites__space-number">57 m²</div>
                                 </div>
                             </div>
                             <p class="suites__adriatic-text">Offering 2 balconies and views of Rovinj's Main Square and
                                 the lively waterfront and the main promenade.</p>
-                            <button class="suites__adriatic-button">
-                                BOOK NOW FROM 300$
+                            <button class="suites__button">
+                                <a href="page.html">BOOK NOW FROM 300$</a>
                             </button>
                         </div>
                     </div>
                     <div class="suites__photos">
                         <div class="suits__photos-first">
-                            <img src="images/atelier@2x.jpg" alt="atelier" class="suites__photo suites__photo_button">
+                            <img src="images/main-images/main-atelier@2x.jpg" alt="atelier" class="suites__photo suites__photo_button">
                             <p class="suites__name suites__name-atelier">
                                 Atelier
                             </p>
-                            <img src="images/piazza@2x.jpg" alt="piazza" class="suites__photo">
+                            <img src="images/main-images/main-piazza@2x.jpg" alt="piazza" class="suites__photo">
                             <p class="suites__name suites__name-piazza">
                                 Piazza
                             </p>
                         </div>
                         <div class="suits__photos-second">
-                            <img src="images/gallery@2x.jpg" alt="gallery" class="suites__photo suites__photo_button">
+                            <img src="images/main-images/main-gallery@2x.jpg" alt="gallery" class="suites__photo suites__photo_button">
                             <p class="suites__name suites__name-gallery">
                                 Gallery
                             </p>
-                            <img src="images/grand-piazza-suite@2x.jpg" alt="grand-piazza-suite" class="suites__photo">
+                            <img src="images/main-images/main-grand@2x.jpg" alt="grand-piazza-suite" class="suites__photo">
                             <p class="suites__name suites__name-grand">
                                  Grand Piazza Suite
                             </p>
@@ -189,12 +189,12 @@
             <div class="best-resorts__inner">
                 <div class="best-resorts__photo">
                     <div class="best-resorts__photos">
-                        <img src="images/woman@2x.jpg" alt="woman" class="resort__photo">
-                        <img src="images/table@2x.jpg" alt="table" class="resort__photo">
+                        <img src="images/main-images/main-woman@2x.jpg" alt="woman" class="resort__photo">
+                        <img src="images/main-images/main-table@2x.jpg" alt="table" class="resort__photo">
                     </div>
                     <div class="best-resorts__photos">
-                        <img src="images/balcony@2x.jpg" alt="balcony" class="resort__photo">
-                        <img src="images/inside@2x.jpg" alt="inside" class="resort__photo">
+                        <img src="images/main-images/main-balcony@2x.jpg" alt="balcony" class="resort__photo">
+                        <img src="images/main-images/main-inside@2x.jpg" alt="inside" class="resort__photo">
                     </div>
                 </div>
                 <div class="best-resorts__text">

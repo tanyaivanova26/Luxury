@@ -1,0 +1,313 @@
+.header__main{
+    background: url('../images/page/page-header@2x.jpg');
+    min-height: 276px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+}
+
+.header__page{
+    display: flex;
+    padding-top: 234px;
+}
+
+.page__navigation{
+    margin-left: -33px;
+}
+
+.page__links{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 129px;
+}
+
+.page__link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 9px;
+    line-height: 2.28;
+    letter-spacing: 1.35px;
+    color: #ffffff;
+    margin-right: 32px;
+}
+
+.page__link:hover{
+    border-bottom: 2px solid  #878787;
+}
+
+
+.header__page-price{
+    display: flex;
+}
+
+span{
+    font-family: 'Gilda Display', serif;
+    font-size: 37.5px;
+    font-weight: 400;
+    line-height: 0.55;
+    color: #fff;
+    margin: -3px 10px 0px 14px;
+}
+
+.header__page_text{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    margin: 0;
+}
+
+.main{
+    margin-bottom: 29px;
+}
+
+.page__content{
+    display: flex;
+}
+
+.page__adriatic{
+    width: 578px;
+}
+
+.page__title{
+    font-size: 30px;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    margin: 33px 0 0 -33px;
+    letter-spacing: -0.2px;
+}
+
+.page__subtitle{
+    margin: 8px 0 0 -33px;
+}
+
+.page__image_adriatic{
+    width: 565px;
+    height: 276px;
+    margin: 19px 0px 0 -32px;
+}
+
+.page__icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 31px;
+}
+
+.page__icon{
+    text-align: center;
+}
+
+.page__icon_text{
+    font-size: 10.5px;
+    line-height: 1.95;
+    letter-spacing: 0.63px;
+    color: #878787;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+}
+
+.page__icons-guest{
+    width: 29px;
+    height: 29px;
+    margin: 0 13px 3px -38px;
+}
+
+.page__icon_text-guest{
+    margin: 0 25px 0 -26px;
+}
+
+.page__icons-space{
+    width: 29px;
+    height: 29px;
+    margin: 0px 6px 4px 0;
+}
+
+.page__icon_text-space{
+    margin:0 8px 0 0; 
+}
+
+.page__icons-bed{
+    width: 31px;
+    height: 29px;
+    margin: 0 14px 0 0;
+}
+
+.page__icon_text-bed{
+    margin: 3px 9px 0 -5px;
+}
+.page__icons-calendar{
+    width: 31px;
+    height: 31px;
+    margin: 0 39px 0 -6px;
+}
+
+.page__icon_text-calendar{
+    margin: 1px 0px 0 -50px;
+}
+
+.page__text{
+    margin: 52px 2px 2px -34px;
+    width: 535px;
+}
+
+.page__text_second{
+    margin: 20px 0px 0 -33px;
+}
+
+.page__services_title{
+    font-size: 19px;
+    line-height: 0.84;
+    letter-spacing: 0.5px;
+    margin: 77px 0px 0px -31px;
+}
+
+.page__services-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 13px 0px 0 -32px;
+}
+
+.page__services-icon{
+    display: flex;
+}
+
+.page__icons-tv{
+    width: 25px;
+    height: 16px;
+    margin: 12px 6px 0 -1px;
+}
+
+.page__icons-smoking{
+    width: 19px;
+    height: 23px;
+    margin: 9px 7px 0px -4px;
+}
+
+.page__icons-bath{
+    width: 22px;
+    height: 19px;
+    margin: 1px 8px 0px 0px;
+}
+
+.page__icons-coctail{
+    width: 22px;
+    height: 20px;
+    margin: -12px 7px 0 0;
+}
+
+.page__icons-text{
+    margin: 0;
+
+}
+
+.page__icons-bicycle{
+    width: 23px;
+    height: 17px;
+    margin: 0px 6px 0 -7px;
+}
+
+.page__icons-towel{
+    width: 20px;
+    height: 20px;
+    margin: -14px 8px 0 -6px;
+}
+
+.page__icons-umbrella{
+    width: 16px;
+    height: 18px;
+    margin: 11px 11px 2px -12px;
+}
+
+.page__icons-cutlery{
+    width: 18px;
+    height: 22px;
+    margin: -4px 9px 0 -12px;
+}
+
+.pages__icon-beds{
+    width: 21px;
+    height: 19px;
+    margin: -13px 9px 0 -15px;
+}
+
+.page__icons_text{
+    margin-top: -13px;
+}
+
+.page__book{
+    width: 272px;
+    height: 273px;
+    background-color: #1c1c1c;
+    padding: 23px;
+    margin: 114px -7px 0 0px;
+}
+
+.page__book-guest{
+    width: 225px;
+    height: 51px;
+    padding: 16px 87px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.37;
+    letter-spacing: 0.6px;
+    background-color: #151515;
+    margin-bottom: 14px;
+}
+
+.page__book_check{
+    display: flex;
+    padding: 0px 0px;
+    margin-bottom: 14px;
+}
+
+.page__book_check-in{
+    background-color: #151515;
+    width: 109px;
+    height: 118px;
+    text-align: center;
+}
+
+.page__book__check-one{
+    margin-right: 14px;
+}
+
+.check__title{
+    color: #c19b76;
+    margin: 9px 0 14px 0;
+}
+
+.check__date{
+    font-family: 'Gilda Display', serif;
+    font-size: 37.5px;
+    line-height: 0.55;
+    color: #c19b76;
+    margin: 0;
+}
+
+.check__month{
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    font-size: 9px;
+    font-style: italic;
+    line-height: 2.28;
+    letter-spacing: -0.54px;
+    color: #fff;
+    margin: 13px 0 0 -2px;
+}
+
+.check__day{
+    font-size: 8.5px;
+    line-height: 2.41;
+    letter-spacing: 0.68px;
+    color: #a3a3a3;
+    margin: -7px 1px 0 0;
+}
+
+.page__book_btn{
+    width: 226px;
+    height: 32px;
+    background-color: #c19b76;
+    color: #fff;
+    border: none;
+}

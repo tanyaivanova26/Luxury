@@ -1,0 +1,291 @@
+
+.header__main{
+    background: url('../images/rooms/rooms-header@2x.jpg');
+    min-height: 290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+}
+
+.header__main-inner{
+    text-align: center;
+    padding: 73px 8px 3px 0px;
+}
+
+.rooms__container{
+    max-width: 876px;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    margin-top: 33px;
+    height: 947px;
+}
+
+.sidebar{
+    margin-right: 20px;
+}
+
+.rooms__title{
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 52px;
+    line-height: 1.29;
+    width: 204px;
+    margin: 23px auto 0px;
+}
+
+.branches{
+    width: 278px;
+    height: 312px;
+    background-color: #151515;
+    padding: 21px 24px 23px 22px;
+}
+
+.branches__subtitle{
+    font-family: 'Gilda Display', serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.37;
+    color: #fff;
+    text-align: center;
+    margin: 15px 0px 46px 1px;
+}
+
+.branches__box-dates{
+    display: flex;
+    margin: 0px 0px 20px 2px;
+}
+
+.branches__box-options{
+    padding: 0px 9px 22px 0px;
+}
+
+.branches__box-check{
+    display: flex;
+    text-align: center;
+}
+
+.branches__label-parameters{
+    text-transform: uppercase;
+    margin: 0px 40px 0px 10px;
+}
+
+.branches__input-parameters{
+    padding: 0px 5px 0px 23px;
+}
+
+.branches__box_input{
+    border: none;
+    color: #c19b76;
+    font-family: 'Gilda Display', serif;
+    padding: 6px 6px 6px 10px;
+    margin: 5px 0px 0 0px;
+    background-color: #151515;
+}
+
+.branches__box_input-parameters{
+    padding: 0 9px 6px 17px;
+    margin: 6px -18px 4px -2px;
+}
+.branches__box_input-check{
+    margin: 5px 0px 0px -13px;
+}
+
+input::placeholder{
+   color: #c19b76;
+}
+
+.branches__box-parameters{
+    display: flex;
+}
+
+.branches__box-select{
+    color: #c19b76;
+    background-color: #151515;
+    margin: 32px 9px 2px -10px;
+}
+
+.branches__box-text{
+    display: inline-block;
+    padding: 0 0px 0 26px;
+}
+
+.branches__box-text_out{
+    display: inline-block;
+    margin: 0 -14px 0 17px;
+}
+
+.services{
+    width: 278px;
+    height: 131px;
+    margin-top: 42px;
+}
+
+.services h3,
+.room-size h3,
+.reviews h3{
+    font-size: 15px;
+    line-height: 1.37;
+    letter-spacing: 0.9px;
+    color: #1c1c1c;
+    font-family: 'Gilda Display', serif;
+}
+
+.services__checkbox{
+    display: flex;
+    margin: -7px 0 0 0; 
+    padding: 0;
+    width: 312px;
+}
+
+.services__checkbox_first{
+    margin: 0px -28px 0 0;
+}
+
+.input__checkbox{
+    width: 10px;
+    height: 10px;
+    border-radius: 1.1px;
+    border: solid 0.4px #b3b3b3;
+    margin-right: 11px;
+}
+
+.label__checkbox{
+    margin-right: 30px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 10.5px;
+    line-height: 1.95;
+    letter-spacing: 0.63px;
+    color: #878787;
+}
+
+.room-size{
+    margin-top: -10px;
+}
+
+.room-size__inputs{
+    display: flex;
+    margin-top: -4px;
+}
+
+.room-size__input{
+    width: 48px;
+    padding: 0px 0px 2px 6px;
+    margin-top: 3px;
+}
+
+.room-size__input,
+.reviews__raiting-assessment{
+    height: 24px;
+    background-color: #1c1c1c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9.5px;
+    line-height: 2.16;
+    letter-spacing: -0.19px;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.room-size__text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 9px;
+    line-height: 2.28;
+    color: #878787;
+    text-transform: uppercase;
+    margin: 5px 10px 0px 0px;
+}
+
+.reviews{
+    margin-top: 54px;
+}
+
+.reviews__raiting{
+    display: flex;
+}
+
+.reviews__raiting-assessment{
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: -1px;
+}
+
+.reviews__raiting-assessment:hover{
+    background-color: #c19b76;
+    transition-duration: 1s;
+}
+
+.rooms__list_first,
+.rooms__list_second{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.rooms__item{
+    width: 278px;
+    height: 387px;
+    border: solid 0.8px #f1f1f1;
+    background-color: #fff;
+    margin-right: 23px;
+}
+
+.rooms__description{
+    padding: 21px 0px 0px 23px;
+}
+
+.rooms__profile{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 14px;
+}
+
+.rooms__list-text{
+    padding: 0px 34px 4px 0px;
+}
+
+.rooms__list-text_width{
+    padding: 0 41px 4px 0;
+}
+
+.rooms__list-btn{
+    padding: 0 26px 0 0;
+    letter-spacing: 0.85px;
+}
+
+.suites__button a{
+    color: #c19b76;
+}
+
+.rooms__photo{
+    width: 278px;
+    height: 186px;
+    background-size: cover;
+}
+
+.suites__name{
+    margin: -35px 0px 0px 22px;
+}
+
+.suites__button{
+    width: 173px;
+    background-color: transparent;
+    border: solid 1.5px #c19b76;
+    color: #c19b76;
+}
+
+.rooms__black{
+    height: 70px;
+    background-color: #151515;
+    margin-top: -34px;
+}
+footer{
+    height: 45px;
+}

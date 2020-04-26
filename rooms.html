@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Roboto:wght@300;400;900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rooms.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__menu">
+                        <a class="header__logo" href="#">
+                            <img src="images/logo.svg" alt="logo" class="header__logo-img">
+                        </a>
+                        <nav class="menu">
+                            <ul class=" header__links links">
+                                <li><a class="link" href="index.html">Home</a></li>
+                                <li><a class="link" href="rooms.html">Rooms</a></li>
+                                <li><a class="link" href="page.html">Single Room</a></li>
+                                <li><a class="link" href="#">Booking</a></li>
+                                <li><a class="link" href="#">Our News</a></li>
+                                <li><a class="link" href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="container">
+                    <div class="header__main-inner">
+                        <h1 class="rooms__title">
+                            SEARCH
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <section>
+        <div class="wrapper">
+           <div class="rooms__container">
+                <div class="content">
+                    <div class="sidebar">
+                        <div class="branches">
+                            <h3 class="branches__subtitle">
+                                All Branches
+                            </h3>
+                            <div class="branches__option">
+                                <div class="branches__box-dates">
+                                    <div class="branches__box-options branches__box-check">
+                                        <label>
+                                            <div class="branches__box-text">
+                                                CHECK-IN</div>
+                                            <input type="text" class="branches__box_input branches__box_input-check" placeholder="26">
+                                        </label>
+                                        <select class="branches__box-select">
+                                            <option value="">Jan</option>
+                                            <option value="">Feb</option>
+                                            <option value="">Mar</option>
+                                            <option value="">Apr</option>
+                                            <option value="">May</option>
+                                            <option value="">Jun</option>
+                                            <option value="">Jul</option>
+                                            <option value="">Aug</option>
+                                            <option value="">Sep</option>
+                                            <option value="">Okt</option>
+                                            <option value="">Nov</option>
+                                            <option value="">Dec</option>
+                                        </select>
+                                    </div>
+                                    <div class="branches__box-options branches__box-check">
+                                        <label>
+                                            <div class="branches__box-text_out">
+                                                CHECK-OUT</div>
+                                            <input type="text" class="branches__box_input" placeholder="28">
+                                        </label>
+                                        <select class="branches__box-select">
+                                            <option value="">Jan</option>
+                                            <option value="">Feb</option>
+                                            <option value="">Mar</option>
+                                            <option value="">Apr</option>
+                                            <option value="">May</option>
+                                            <option value="">Jun</option>
+                                            <option value="">Jul</option>
+                                            <option value="">Aug</option>
+                                            <option value="">Sep</option>
+                                            <option value="">Okt</option>
+                                            <option value="">Nov</option>
+                                            <option value="">Dec</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="branches__box-parameters">
+                                    <div class="branches__box-options branches__input-parameters">
+                                        <label class="branches__label-parameters">
+                                            guests
+                                            <input type="text" class="branches__box_input" placeholder="1">
+                                        </label>
+                                    </div>
+                                    <div class="branches__box-options branches__input-parameters">
+                                        <label class="branches__label-parameters">
+                                            nights
+                                            <input type="text" class="branches__box_input branches__box_input-parameters" placeholder="2">
+                                        </label>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="services">
+                            <h3>Services</h3>
+                            <div class="services__checkbox">
+                                <div class="services__checkbox_first">
+                                    <label for="animal" class="label__checkbox"><input type="checkbox" id="animal" name="animal" class="input__checkbox">Animal Allowed</label>
+                                    <label for="smooke" class="label__checkbox"><input type="checkbox" id="smooke" name="smoke" class="input__checkbox">Smooking Room</label>
+                                    <label for="view" class="label__checkbox"><input type="checkbox" id="view" name="view" class="input__checkbox">Sea View</label>
+                                </div>
+                                <div class="services__checkbox_second">
+                                    <label for="swim" class="label__checkbox"><input type="checkbox" id="swim" name="swim" class="input__checkbox">Swimming Pool</label>
+                                    <label for="wifi" class="label__checkbox"><input type="checkbox" id="wifi" name="wifi" class="input__checkbox">Wifi 24 H</label>
+                                    <label for="breakfast" class="label__checkbox"><input type="checkbox" id="breakfast" name="breakfast" class="input__checkbox">Breakfast Included</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="room-size">
+                            <h3>Room Size</h3> 
+                            <div class="room-size__inputs">
+                                <input type="text" placeholder="0.0" class="room-size__input">
+                                <p class="room-size__text">-</p>
+                                <input type="text" placeholder="100" class="room-size__input">
+                                <p class="room-size__text">m2</p>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                            <h3>Reviews</h3>
+                            <div class="reviews__raiting">
+                                <div class="reviews__raiting-assessment">0.0</div>
+                                <div class="reviews__raiting-assessment">2.0</div>
+                                <div class="reviews__raiting-assessment">4.0</div>
+                                <div class="reviews__raiting-assessment">6.0</div>
+                                <div class="reviews__raiting-assessment">8.0</div>
+                                <div class="reviews__raiting-assessment">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rooms__list">
+                        <div class="rooms__list_first">
+                            <div class="rooms__adriatic rooms__item">
+                                <img src="images/rooms/rooms-adriatic@2x.jpg" alt="Adriatic suite" class="rooms__photo">
+                                <h2 class="suites__name">Adriatic suite</h2>
+                                <div class="rooms__description">
+                                    <h3 class="suites__title">Adriatic suite</h3>
+                                    <div class="rooms__profile">
+                                        <div class="raiting">7.5</div>
+                                        <div class="review">5 Reviews</div>
+                                        <div class="suites__guests">
+                                            <img src="images/icons/guest.svg" alt="icon-guest" class="suites__guests-icon">
+                                            <div class="suites__guests-number">3 guests</div>
+                                        </div>
+                                        <div class="suites__space">
+                                            <img src="images/icons/space.svg" alt="icon-space" class="suites__space-icon">
+                                            <div class="suites__space-number">57 m²</div>
+                                        </div>
+                                    </div>
+                                    <p class="rooms__list-text">Offering 2 balconies and views of Rovinj's Main Square and the lively waterfront.</p>
+                                    <button class="suites__button rooms__list-btn">
+                                        <a href="page.html">BOOK NOW from 300$</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="rooms__atelier rooms__item">
+                                <img src="images/rooms/rooms__atelier@2x.jpg" alt="Atelier suite" class="rooms__photo">
+                                <h2 class="suites__name">Atelier</h2>
+                                <div class="rooms__description">
+                                    <h3 class="suites__title">Atelier</h3>
+                                    <div class="rooms__profile">
+                                        <div class="raiting">8.0</div>
+                                        <div class="review">5 Reviews</div>
+                                        <div class="suites__guests">
+                                            <img src="images/icons/guest.svg" alt="icon-guest" class="suites__guests-icon">
+                                            <div class="suites__guests-number">2 guests</div>
+                                        </div>
+                                        <div class="suites__space">
+                                                <img src="images/icons/space.svg" alt="icon-space" class="suites__space-icon">
+                                                <div class="suites__space-number">25 m²</div>
+                                        </div>
+                                    </div>
+                                    <p class="rooms__list-text rooms__list-text_width">Inspired by a workshop, Atelier rooms are a part of the old town’s center
+                                    </p>
+                                    <button class="suites__button rooms__list-btn">
+                                        BOOK NOW from 132$
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rooms__list_second">
+                            <div class="rooms__gallery rooms__item">
+                                <img src="images/rooms/rooms__gallery@2x.jpg" alt="Gallery suite" class="rooms__photo">
+                                <h2 class="suites__name">Gallery</h2>
+                                <div class="rooms__description">
+                                    <h3 class="suites__title">Gallery</h3>
+                                    <div class="rooms__profile">
+                                        <div class="raiting">9.5</div>
+                                        <div class="review">4 Reviews</div>
+                                        <div class="suites__guests">
+                                            <img src="images/icons/guest.svg" alt="icon-guest" class="suites__guests-icon">
+                                            <div class="suites__guests-number">2 guests</div>
+                                        </div>
+                                        <div class="suites__space">
+                                                <img src="images/icons/space.svg" alt="icon-space" class="suites__space-icon">
+                                                <div class="suites__space-number">37 m²</div>
+                                        </div>
+                                    </div>
+                                    <p class="rooms__list-text rooms__list-text_width">Set at the very top floor of the hotel, this suite is air-conditioned.
+                                    </p>
+                                    <button class="suites__button rooms__list-btn">
+                                        BOOK NOW from 435$
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="rooms__grand rooms__item">
+                                <img src="images/rooms/rooms__grand@2x.jpg" alt="Grand Piazza Suite" class="rooms__photo">
+                                <h2 class="suites__name">Grand Piazza Suite</h2>
+                                <div class="rooms__description">
+                                    <h3 class="suites__title">Grand Piazza Suite</h3>
+                                    <div class="rooms__profile">
+                                        <div class="raiting">9.8</div>
+                                        <div class="review">7 Reviews</div>
+                                        <div class="suites__guests">
+                                            <img src="images/icons/guest.svg" alt="icon-guest" class="suites__guests-icon">
+                                            <div class="suites__guests-number">4 guests</div>
+                                        </div>
+                                        <div class="suites__space">
+                                                <img src="images/icons/space.svg" alt="icon-space" class="suites__space-icon">
+                                                <div class="suites__space-number">78 m²</div>
+                                        </div>
+                                    </div>
+                                    <p class="rooms__list-text">Offering views of Rovinj's Main Square, 
+                                        this spacious suite is air-conditioned.
+                                    </p>
+                                    <button class="suites__button rooms__list-btn">
+                                        BOOK NOW from 610$
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rooms__black"></section>
+    <footer></footer>
+</body>
+</html>
