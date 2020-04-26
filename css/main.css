@@ -98,8 +98,8 @@ form{
     margin: 89px 5px 16px 0;
 }
 
-about__title{
-    margin: 16px 3px 0 0;
+.about__title{
+    margin: 0;
 }
 
 .about-btn{
