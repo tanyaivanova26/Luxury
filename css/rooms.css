@@ -8,13 +8,19 @@
     text-align: center;
 }
 
+@media(max-width:1439px){
+    .header__main{
+        min-height: 143px;
+    }
+}
+
 .header__main-inner{
     text-align: center;
     padding: 73px 8px 3px 0px;
 }
 
 .rooms__container{
-    max-width: 876px;
+    max-width: 645px;
     margin: 0 auto;
 }
 .content{
@@ -27,6 +33,12 @@
     margin-right: 20px;
 }
 
+@media(max-width:1439px){
+    .sidebar{
+        margin: -1px -56px 2px 11px;
+    }
+}
+
 .rooms__title{
     font-family: 'Gilda Display', serif;
     font-weight: 400;
@@ -37,11 +49,26 @@
     margin: 23px auto 0px;
 }
 
+@media(max-width:1439px){
+    .rooms__title{
+        font-size: 32px;
+        letter-spacing: -0.3px;
+        margin: -16px 0px 0px 306px;
+    }
+}
+
 .branches{
     width: 278px;
     height: 312px;
     background-color: #151515;
     padding: 21px 24px 23px 22px;
+}
+
+@media(max-width:1439px){
+    .branches{
+        width: 210px;
+        height: 223px;
+    }
 }
 
 .branches__subtitle{
@@ -54,9 +81,23 @@
     margin: 15px 0px 46px 1px;
 }
 
+@media(max-width:1439px){
+    .branches__subtitle{
+        font-size: 11px;
+        line-height: 1.32;
+        margin: 4px 22px 32px 11px;
+    }
+}
+
 .branches__box-dates{
     display: flex;
     margin: 0px 0px 20px 2px;
+}
+
+@media(max-width:1439px){
+    .branches__box-dates{
+        margin: 0px 0px -23px -13px;
+    }
 }
 
 .branches__box-options{
@@ -68,10 +109,23 @@
     text-align: center;
 }
 
+@media(max-width:1439px){
+    .branches__box-check{
+        padding: 0px 4px 21px 0px;
+        margin: -1px -17px 14px 0px;
+    }
+}
+
 .branches__label-parameters{
     text-transform: uppercase;
     margin: 0px 40px 0px 10px;
 }
+
+/*@media(max-width:1439px){
+    .branches__box-parameters{
+        margin: 0px 23px 4px 32px;
+    }
+}*/
 
 .branches__input-parameters{
     padding: 0px 5px 0px 23px;
@@ -86,12 +140,27 @@
     background-color: #151515;
 }
 
+@media(max-width:1439px){
+    .branches__box_input{
+        font-size: 27px;
+        line-height: 0.54;
+        letter-spacing: -1.62px;
+    }
+}
+
 .branches__box_input-parameters{
     padding: 0 9px 6px 17px;
     margin: 6px -18px 4px -2px;
 }
+
 .branches__box_input-check{
     margin: 5px 0px 0px -13px;
+}
+
+@media(max-width:1439px){
+    .branches__box_input-check{
+        margin: -12px 0px 0px 4px;
+    }
 }
 
 input::placeholder{
@@ -106,6 +175,13 @@ input::placeholder{
     color: #c19b76;
     background-color: #151515;
     margin: 32px 9px 2px -10px;
+}
+
+@media(max-width:1439px){
+    .branches__box-select{
+        margin: 22px 0px 4px -4px;
+        padding: 0px 23px 0 2px;
+    }
 }
 
 .branches__box-text{
@@ -132,6 +208,16 @@ input::placeholder{
     letter-spacing: 0.9px;
     color: #1c1c1c;
     font-family: 'Gilda Display', serif;
+}
+
+@media(max-width:1439px){
+    .services h3,
+    .room-size h3,
+    .reviews h3{
+        font-size: 11px;
+        line-height: 1.32;
+        letter-spacing: 0.66px;
+    }
 }
 
 .services__checkbox{
