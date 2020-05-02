@@ -140,10 +140,11 @@ form{
 
 @media(max-width:1023px){
     form{
-        width: 526px;
-        height: 141px;
-        margin: -2px 0px 0px -84px;
+        display: block;
         border: 1px solid #a3a3a3;
+        max-width: 526px;
+        height: 141px;
+        margin: -2px 2px 0 -83px;
     }
 }
 
@@ -156,7 +157,15 @@ form{
 
 @media(max-width:1439px){
     .form__box{
-        margin: 4px -2px 0 41px;
+        margin: 14px 0px 0 -23px;
+        padding: 21px 38px 0px 99px;    
+    }
+}
+
+@media(max-width:1023px){
+    .form__box{
+        padding: 21px 25px 21px 0px;
+        margin: 4px 0px 0 2px;
     }
 }
 
@@ -165,9 +174,16 @@ form{
     margin-right: -7px;
 }
 
+@media(max-width:1439px){
+    .form__box-input{
+        margin: -11px 0px 0 -5px;
+    }
+}
+
 @media(max-width:1023px){
     .form__box-input{
-        padding: 20px 3px 0px 53px;
+        display: flex;
+        margin: 3px 16px 27px 9px;
     }
 }
 
@@ -200,13 +216,13 @@ form{
 
 @media(max-width:1023px){
     .form__button{
-        width: 527px;
-        height: 76px;
-        margin: 14px 0px 0px -1px;;
+        width: 526px;
+        height: 74px;
+        margin: -1px 69px 0px 0px;
         font-size: 22px;
         line-height: 0.39;
         letter-spacing: 3.74px;
-        padding: 0 0px 0 11px;
+        padding: 29px 8px 34px 13px;
     }
 }
 

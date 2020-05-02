@@ -207,6 +207,12 @@ input{
     text-align: center;
 }
 
+@media(max-width:1023px){
+    input{
+        margin: 14px -13px 0px -5px;
+    }
+}
+
 label{
     font-size: 9px;
     font-family: 'Roboto', sans-serif;
@@ -231,7 +237,7 @@ label{
         font-size: 14px;
         line-height: 0.64;
         letter-spacing: 1.12px;
-        margin: -3px 13px -2px -9px;
+        margin: -3px 5px 6px 26px;
     }
 }
 
@@ -253,7 +259,7 @@ select{
 @media(max-width:1439px){
     select{
        position: absolute;
-       margin: 56px 0px 0 36px;
+       margin: 57px 0px 0 45px;
     }
 }
 
@@ -262,8 +268,11 @@ select{
         font-size: 20px;
         line-height: 0.45;
         letter-spacing: -1.2px;
+        position: absolute;
+        margin: 77px 0px 0 61px;
     }
 }
+
 .subtitle{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
