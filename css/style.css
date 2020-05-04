@@ -29,6 +29,8 @@ body{
     margin: 0 auto;
 }
 
+
+
 .header__top{
     background-color: #1c1c1c;
     color: #fff;
@@ -169,7 +171,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #c9a787;
     display: block;
 }
 
@@ -446,6 +448,7 @@ p{
     .suites__space-number{
         font-size: 7px;
         line-height: 2.07;
+        margin-right: 5px;
     }
 }
 
@@ -463,6 +466,7 @@ p{
     .suites__guests-icon{
         width: 12px;
         height: 12px;
+        margin-right: 3px;
     }
 }
 
@@ -552,6 +556,7 @@ p{
     .footer__link{
         font-size: 11px;
         line-height: 1.32;
+        margin: 3px -24px 0px -10px;
     }
 }
 
