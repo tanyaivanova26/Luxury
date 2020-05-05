@@ -29,8 +29,6 @@ body{
     margin: 0 auto;
 }
 
-
-
 .header__top{
     background-color: #1c1c1c;
     color: #fff;
@@ -390,6 +388,14 @@ p{
         font-size: 16px;
         line-height: 0.72;
         margin-bottom: 13px;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__title{
+        font-size: 22px;
+        line-height: 0.32;
+        text-align: left;
     }
 }
 

@@ -29,6 +29,7 @@
                                 <li><a class="link" href="#">Contact</a></li>
                             </ul>
                         </nav>
+                        <img src="images/menu.svg" alt="menu" class="menu_mobile">
                     </div>
                 </div>
             </div>
@@ -100,7 +101,7 @@
                                     <div class="branches__box-options branches__input-parameters">
                                         <label class="branches__label-parameters">
                                             guests
-                                            <input type="text" class="branches__box_input" placeholder="1">
+                                            <input type="text" class="branches__box_input branches__box_input-guest" placeholder="1">
                                         </label>
                                     </div>
                                     <div class="branches__box-options branches__input-parameters">
@@ -149,10 +150,13 @@
                         </div>
                     </div>
                     <div class="rooms__list">
+                        <h3 class="rooms__list_title">List</h3>
                         <div class="rooms__list_first">
                             <div class="rooms__adriatic rooms__item">
-                                <img src="images/rooms/rooms-adriatic@2x.jpg" alt="Adriatic suite" class="rooms__photo">
-                                <h2 class="suites__name">Adriatic suite</h2>
+                                <div>
+                                    <img src="images/rooms/rooms-adriatic@2x.jpg" alt="Adriatic suite" class="rooms__photo">
+                                    <h2 class="suites__name">Adriatic suite</h2>
+                                </div>
                                 <div class="rooms__description">
                                     <h3 class="suites__title">Adriatic suite</h3>
                                     <div class="rooms__profile">
@@ -174,8 +178,10 @@
                                 </div>
                             </div>
                             <div class="rooms__atelier rooms__item">
-                                <img src="images/rooms/rooms__atelier@2x.jpg" alt="Atelier suite" class="rooms__photo">
-                                <h2 class="suites__name">Atelier</h2>
+                                <div class="rooms__item_photo">
+                                    <img src="images/rooms/rooms__atelier@2x.jpg" alt="Atelier suite" class="rooms__photo rooms__photo_atelier">
+                                    <h2 class="suites__name">Atelier</h2>
+                                </div>
                                 <div class="rooms__description">
                                     <h3 class="suites__title">Atelier</h3>
                                     <div class="rooms__profile">
@@ -200,8 +206,10 @@
                         </div>
                         <div class="rooms__list_second">
                             <div class="rooms__gallery rooms__item">
-                                <img src="images/rooms/rooms__gallery@2x.jpg" alt="Gallery suite" class="rooms__photo">
-                                <h2 class="suites__name">Gallery</h2>
+                                <div>
+                                    <img src="images/rooms/rooms__gallery@2x.jpg" alt="Gallery suite" class="rooms__photo">
+                                    <h2 class="suites__name">Gallery</h2>
+                                </div>
                                 <div class="rooms__description">
                                     <h3 class="suites__title">Gallery</h3>
                                     <div class="rooms__profile">
@@ -224,8 +232,10 @@
                                 </div>
                             </div>
                             <div class="rooms__grand rooms__item">
-                                <img src="images/rooms/rooms__grand@2x.jpg" alt="Grand Piazza Suite" class="rooms__photo">
-                                <h2 class="suites__name">Grand Piazza Suite</h2>
+                                <div class="rooms__item_photo">
+                                    <img src="images/rooms/rooms__grand@2x.jpg" alt="Grand Piazza Suite" class="rooms__photo">
+                                    <h2 class="suites__name">Grand Piazza Suite</h2>
+                                </div>
                                 <div class="rooms__description">
                                     <h3 class="suites__title">Grand Piazza Suite</h3>
                                     <div class="rooms__profile">
@@ -255,6 +265,16 @@
         </div>
     </section>
     <section class="rooms__black"></section>
-    <footer></footer>
+    <footer class="rooms__footer">
+        <nav class="menu footer__menu">
+            <ul class="footer__nav links">
+                <li><a href="" class="link footer__link">Home</a></li>
+                <li><a href="" class="link footer__link">About Us</a></li>
+                <li><a href="" class="link footer__link">Services</a></li>
+                <li><a href="" class="link footer__link">Booking</a></li>
+                <li><a href="" class="link footer__link">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
