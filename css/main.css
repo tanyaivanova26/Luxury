@@ -16,7 +16,7 @@
 
 @media (max-width:1023px){
     .header__main{
-        min-height: 199px;
+        min-height: 258px;
         position: relative;
         background-position: 50% 133%;
     }
@@ -87,22 +87,31 @@ hr{
     }
 }
 
+.header a{
+    color: #fff;
+}
+
 .header__btn{
     width: 142px;
     height: 35px;
     border: solid 1.1px #ffffff;
     background-color: transparent;
     color: #fff;
-    margin-bottom: 93px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 1.2px;
+    margin: 0 0px 93px 337px;
+    padding: 7px 0 0 0;
 }
 
 @media(max-width:1439px){
     .header__btn{
-        margin-bottom: 72px;
-        width: 145px;
-        height: 25px;
-        padding: 0px 0px 0 4px;
-        letter-spacing: 1.6px;
+        height: 26px;
+        letter-spacing: 1.8px;
+        margin: 0 0px 70px 337px;
+        padding: 3px 0px 0 4px;
     }
 }
 
@@ -113,7 +122,8 @@ hr{
         font-size: 18px;
         line-height: 0.5;
         letter-spacing: 3.2px;
-        margin-bottom: 79px;
+        margin: 0px 0 78px 199px;
+        padding: 20px 0 0 0;
     }
 }
 .header__form{
@@ -301,26 +311,29 @@ form{
     width: 103px;
     height: 33px;
     border: none;
-    margin-right: 3px;
     letter-spacing: 1.4px;
+    margin: 0 0 0px 126px;
+    padding: 7px 0 0 0;
 }
 
 @media(max-width:1439px){
     .about-btn{
         width: 115px;
         height: 25px;
-        margin: 0 12px 0 0;
+        margin: 0 0px 0 117px;
+        padding: 4px 1px 0px 0px;
+        letter-spacing: 2.0px;
     }
 }
 
 @media(max-width:1023px){
     .about-btn{
-        width: 314px;
+        width: 315px;
         height: 55px;
         font-size: 18px;
         letter-spacing: 3.5px;
-        margin: -5px 69px 0px -32px;
-        padding: 6px 0 0 0;
+        margin: -5px 69px 0px -29px;
+        padding: 8px 0 0px 2px;
     }
 }
 

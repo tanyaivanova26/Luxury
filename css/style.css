@@ -100,12 +100,6 @@ body{
     margin-top: -4px;
 }
 
-@media{
-    .header__links{
-        width: 466px;
-    }
-}
-
 .links{
     display: flex;
     justify-content: space-between;
@@ -171,6 +165,11 @@ a{
     text-decoration: none;
     color: #c9a787;
     display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 1.2px;
 }
 
 button{
@@ -501,7 +500,7 @@ p{
     border: none;
     color: #fff;
     letter-spacing: 1.4px;
-    padding: 0 0px 0 6px;
+    padding: 8px 0px 0 28px;
 }
 
 @media(max-width:1439px){
@@ -510,8 +509,8 @@ p{
         height: 26px;
         font-size: 10px;
         line-height: 1.61;
-        letter-spacing: 01.0px;
-        padding: 0px 20px 0px 0;
+        letter-spacing: 1.0px;
+        padding: 4px 0px 0px 19px;
     }
 }
 
@@ -562,7 +561,7 @@ p{
     .footer__link{
         font-size: 11px;
         line-height: 1.32;
-        margin: 3px -24px 0px -10px;
+        margin: 0px 26px 0px 0px;
     }
 }
 
