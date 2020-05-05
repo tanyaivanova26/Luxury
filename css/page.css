@@ -88,7 +88,7 @@
 
 .page__link{
     font-family: 'Roboto', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 9px;
     line-height: 2.28;
     letter-spacing: 1.35px;
@@ -280,7 +280,7 @@ span{
     letter-spacing: 0.63px;
     color: #878787;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     margin-top: -13px;
 }
 

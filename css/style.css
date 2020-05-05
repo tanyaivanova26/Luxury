@@ -415,7 +415,7 @@ p{
     background-color: #1c1c1c;
     color:#fff;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 8.5px;
     line-height: 2.41;
     letter-spacing: -0.17px;
@@ -438,7 +438,7 @@ p{
 .suites__guests-number,
 .suites__space-number{
     font-family: 'Roboto', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 9px;
     line-height: 2.28;
     color: #878787;
