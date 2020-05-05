@@ -1,0 +1,575 @@
+*{
+    box-sizing: border-box;
+}
+
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1440px;
+}
+
+@media(max-width:1439px){
+    body{
+        width: 1024px;
+    }
+}
+
+@media(max-width:1023px){
+    body{
+        width: 639px;
+    }
+}
+
+.container{
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.header__top{
+    background-color: #1c1c1c;
+    color: #fff;
+    height: 51px;
+}
+
+@media(max-width:1439px){
+    .header__top{
+        height: 42px;
+    }
+}
+
+@media(max-width:1023px){
+    .header__top{
+        height: 36px;
+    }
+}
+
+@media(max-width:1023px){
+    .menu{
+        display: none;
+    }
+}
+
+.menu_mobile{
+    display: none;
+}
+
+@media(max-width:1023px){
+    .menu_mobile{
+        display: block;
+        width: 23px;
+        height: 22px;
+        margin: -6px 55px 0 0;
+    }
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+
+.header__logo-img{
+    width: 173px;
+    height: 24px;
+    margin: -2px 0px 0px -30px;
+}
+
+@media(max-width:1439px){
+    .header__logo-img{
+        width: 120px;
+        height: 19px;
+        margin: -2px 0px 0px 98px;
+    }
+}
+
+@media(max-width:1023px){
+    .header__logo-img{
+        width: 172px;
+        height: 21px;
+        margin: -2px 0px 0 47px;
+    }
+}
+
+.header__links{
+    width: 475px;
+    margin-top: -4px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: #878787;
+    font-size: 10.5px;
+    line-height: 1.95;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    margin-right: 30px;
+    padding-bottom: 3px;
+}
+
+.links:last-child{
+    margin-right: -54px;
+}
+
+
+@media(max-width:1439px){
+    .links:last-child{
+        margin-right: -111px;
+    }
+}
+
+.menu a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.title{
+    font-family: 'Gilda Display', serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 52.5px;
+    line-height: 1.27;
+    width: 466px;
+    margin: 15px auto 32px;
+}
+
+@media(max-width:1439px){
+    .title{
+        font-size: 32px;
+        line-height: 1;
+        width: 495px;
+        margin: 15px auto 26px;
+    }
+}
+
+@media(max-width:1023px){
+    .title{
+        font-size: 32px;
+        line-height: 1.41;
+        width: 490px;
+        margin: -39px auto 14px;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #c9a787;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 1.2px;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    outline: none;
+    cursor: pointer;
+}
+
+@media(max-width:1439px){
+    button{
+        font-size: 9px;
+        line-height: 1.61;
+        letter-spacing: 0.9px;
+    }
+}
+
+input{
+    height: 40px;
+    width: 57px;
+    border: 0.8px solid #a3a3a3;
+    color: #1c1c1c;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    font-size: 37.5px;
+    line-height: 0.55;
+    letter-spacing: -2.25px;
+    padding: 6px 6px 6px 10px;
+    margin: 3px -4px 0 0px;
+    outline: none;
+    text-align: center;
+}
+
+@media(max-width:1023px){
+    input{
+        margin: 14px -13px 0px -5px;
+    }
+}
+
+label{
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #a3a3a3;
+    line-height: 2.28;
+    letter-spacing: 1.25px;
+    margin: -3px 5px -1px 0px;
+}
+
+@media(max-width:1439px){
+    label{
+        font-size: 9px;
+        line-height: 1.61;
+        letter-spacing: 0.72px;
+        margin: -2px 6px -3px 0px;
+    }
+}
+
+@media(max-width:1023px){
+    label{
+        font-size: 14px;
+        line-height: 0.64;
+        letter-spacing: 1.12px;
+        margin: -3px 5px 6px 26px;
+    }
+}
+
+select{
+    width: 45px;
+    height: 15px;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 2.28;
+    letter-spacing: -0.54px;
+    color: #1c1c1c;
+    margin:32px 24px 0 -9px;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+}
+
+@media(max-width:1439px){
+    select{
+       position: absolute;
+       margin: 57px 0px 0 45px;
+    }
+}
+
+@media(max-width:1023px){
+    select{
+        font-size: 20px;
+        line-height: 0.45;
+        letter-spacing: -1.2px;
+        position: absolute;
+        margin: 77px 0px 0 61px;
+    }
+}
+
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #878787;
+    font-size: 10.5px;
+    line-height: 1.95;
+    letter-spacing: 1.16px;
+}
+
+@media(max-width:1439px){
+    .subtitle{
+        font-size: 9px;
+        line-height: 1.61;
+        letter-spacing: 0.99px;
+    }
+}
+
+@media(max-width:1023px){
+    .subtitle{
+        font-size: 18px;
+        line-height: 0.5;
+        letter-spacing: 1.98px;
+    }
+}
+
+.best-resorts__subtitle{
+    color:#fff;
+    margin: -5px 1px 0px 3px;
+    letter-spacing: 0.65px;
+}
+
+@media(max-width:1439px){
+    .best-resorts__subtitle{
+        font-size: 11px;
+        line-height: 1.32;
+        letter-spacing: 0.55px;
+        margin: -24px 1px 0px -17px;
+    }
+}
+
+@media(max-width:1023px){
+    .best-resorts__subtitle{
+        font-size: 18px;
+        line-height: 0.5;
+        letter-spacing: 0.95px;
+        margin: -31px 0px 0px 104px;
+    }
+}
+
+h2{
+    color: #1c1c1c;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.01;
+}
+
+@media(max-width:1439px){
+    h2{
+        font-size: 43px;
+        line-height: 1;
+    }
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 1.95;
+    letter-spacing: 0.63px;
+    color: #878787;
+}
+
+.suites__name{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 8.5px;
+    line-height: 2.41;
+    letter-spacing: 1.4px;
+    color: #fff;
+    z-index: 20;
+    text-transform: uppercase;
+}
+
+@media(max-width:1439px){
+    .suites__name{
+        font-size: 9px;
+        line-height: 1.61;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__name{
+        font-size: 18px;
+        line-height: 1.14;
+        letter-spacing: 3.2px;
+        margin: -41px 0 0px -47px;
+    }
+}
+
+.suites__title{
+    color: #1c1c1c;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    font-size: 22.5px;
+    line-height: 0.71;
+    margin: 0 0 12px;
+}
+
+@media(max-width:1439px){
+    .suites__title{
+        font-size: 16px;
+        line-height: 0.72;
+        margin-bottom: 13px;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__title{
+        font-size: 22px;
+        line-height: 0.32;
+        text-align: left;
+    }
+}
+
+.suits__profile{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 19px;
+}
+
+@media(max-width:1439px){
+    .suits__profile{
+        margin-bottom: 4px;
+    }
+}
+.raiting{
+    width: 21px;
+    height: 20px;
+    background-color: #1c1c1c;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 8.5px;
+    line-height: 2.41;
+    letter-spacing: -0.17px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+@media(max-width:1439px){
+    .raiting{
+        width: 22px;
+        height: 15px;
+        font-size: 8px;
+        line-height: 1.81;
+        letter-spacing: -0.16px;
+        margin-right: 4px;
+    }
+}
+
+.review,
+.suites__guests-number,
+.suites__space-number{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 2.28;
+    color: #878787;
+    text-transform: uppercase;
+    margin-right: 16px;
+    letter-spacing: 0.6px;
+}
+
+@media(max-width:1439px){
+    .review,
+    .suites__guests-number,
+    .suites__space-number{
+        font-size: 7px;
+        line-height: 2.07;
+        margin-right: 5px;
+    }
+}
+
+.suites__guests{
+    display: flex;
+}
+
+.suites__guests-icon{
+    width: 17px;
+    height: 17px;
+    margin-right: 8px;
+}
+
+@media(max-width:1439px){
+    .suites__guests-icon{
+        width: 12px;
+        height: 12px;
+        margin-right: 3px;
+    }
+}
+
+.suites__space{
+    display: flex;
+}
+
+.suites__space-icon{
+    width: 16px;
+    height: 16px;
+    margin: 2px 7px 0 0;
+}
+
+@media(max-width:1439px){
+    .suites__space-icon{
+        width: 11px;
+        height: 11px;
+        margin-right: 4px;
+    }
+}
+
+.suites__button{
+    width: 166px;
+    height: 35px;
+    background-color: #1c1c1c;
+    border: none;
+    color: #fff;
+    letter-spacing: 1.4px;
+    padding: 8px 0px 0 28px;
+}
+
+@media(max-width:1439px){
+    .suites__button{
+        width: 186px;
+        height: 26px;
+        font-size: 10px;
+        line-height: 1.61;
+        letter-spacing: 1.0px;
+        padding: 4px 0px 0px 19px;
+    }
+}
+
+.footer{
+    height: 67px;
+    background-color: #151515;
+}
+
+@media(max-width:1023px){
+    .footer__menu{
+        display: block;
+    }
+}
+
+.footer__nav{
+    max-width: 360px;
+    padding-top: 25px;
+    margin:-5px 0 0 281px;
+}
+
+@media(max-width:1439px){
+    .footer__nav{
+        max-width: 376px;
+        padding-top: 17px;
+        margin: -5px 0 0 200px;
+    }
+}
+
+@media(max-width:1023px){
+    .footer__nav{
+        padding: 10px 32px 2px 0px;
+        margin: -5px 0 0 198px;
+    }
+}
+
+.footer__link{
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    font-size: 9.5px;
+    line-height: 2.16;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #fff;
+    margin-right: 27px;
+}
+
+@media(max-width:1439px){
+    .footer__link{
+        font-size: 11px;
+        line-height: 1.32;
+        margin: 0px 26px 0px 0px;
+    }
+}
+
+@media(max-width:1023px){
+    .footer__link{
+        font-size: 16px;
+        line-height: 0.56;
+        letter-spacing: 1.78px;
+        margin: 6px 0px 2px -154px;
+    }
+}

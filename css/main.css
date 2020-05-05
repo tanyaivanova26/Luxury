@@ -1,0 +1,976 @@
+.header__main{
+    background-image: url('../images/main-images/header-background@2x.jpg');
+    min-height: 576px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+@media (max-width:1439px){
+    .header__main{
+        min-height: 258px;
+        position: relative;
+        background-position: 50% 77%;
+    }
+}
+
+@media (max-width:1023px){
+    .header__main{
+        min-height: 258px;
+        position: relative;
+        background-position: 50% 133%;
+    }
+}
+
+.header__main-inner{
+    text-align: center;
+    padding-top: 72px;
+}
+
+@media(max-width:1439px){
+    .header__main-inner{
+        text-align: center;
+        padding-top: 62px;
+    }
+}
+
+.header__subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 9px;
+    line-height: 2.27;
+    letter-spacing: 1.65px;
+}
+
+@media(max-width:1439px){
+    .header__subtitle{
+        font-size: 10px;
+        line-height: 1.45;
+        letter-spacing: 1.7px;
+    }
+}
+
+@media(max-width:1023px){
+    .header__subtitle{
+        display: none;
+    }
+}
+
+hr{
+    width: 22px;
+    height: 2px;
+    border: none;
+}
+
+@media(max-width:1439px){
+    hr{
+        width: 17px;
+        height: 1px;
+    }
+}
+
+@media(max-width:1023px){
+    hr{
+        display: none;
+    }
+}
+
+.header__hr{
+    background-color: #fff;
+    margin-top: 13px;
+}
+
+@media(max-width:1439px){
+    .header__hr{
+        margin-top: 11px;
+    }
+}
+
+.header a{
+    color: #fff;
+}
+
+.header__btn{
+    width: 142px;
+    height: 35px;
+    border: solid 1.1px #ffffff;
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 1.2px;
+    margin: 0 0px 93px 337px;
+    padding: 7px 0 0 0;
+}
+
+@media(max-width:1439px){
+    .header__btn{
+        height: 26px;
+        letter-spacing: 1.8px;
+        margin: 0 0px 70px 337px;
+        padding: 3px 0px 0 4px;
+    }
+}
+
+@media(max-width:1023px){
+    .header__btn{
+        width: 240px;
+        height: 52px;
+        font-size: 18px;
+        line-height: 0.5;
+        letter-spacing: 3.2px;
+        margin: 0px 0 78px 199px;
+        padding: 20px 0 0 0;
+    }
+}
+.header__form{
+    margin: 0px 0px 100px 139px;
+}
+
+@media(max-width:1439px){
+    .header__form{
+        position: absolute;
+    }
+}
+
+form{
+    display: flex;
+    width: 540px;
+    height: 100px;
+}
+
+@media(max-width:1439px){
+    form{
+        display: flex;
+    }
+}
+
+@media(max-width:1023px){
+    form{
+        display: block;
+        border: 1px solid #a3a3a3;
+        max-width: 526px;
+        height: 141px;
+        margin: -2px 2px 0 -83px;
+    }
+}
+
+.form__box{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 54px 0px 43px;
+}
+
+@media(max-width:1439px){
+    .form__box{
+        margin: 14px 0px 0 -23px;
+        padding: 21px 38px 0px 99px;    
+    }
+}
+
+@media(max-width:1023px){
+    .form__box{
+        padding: 21px 25px 21px 0px;
+        margin: 4px 0px 0 2px;
+    }
+}
+
+.form__box-input{
+    display: flex;
+    margin-right: -7px;
+}
+
+@media(max-width:1439px){
+    .form__box-input{
+        margin: -11px 0px 0 -5px;
+    }
+}
+
+@media(max-width:1023px){
+    .form__box-input{
+        display: flex;
+        margin: 3px 16px 27px 9px;
+    }
+}
+
+.form__button{
+    background-color: #1c1c1c;
+    border: none;
+    width: 135px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 1.72;
+    letter-spacing: 1.53px;
+    color: #fff;
+    text-align: center;
+    padding: 34px 28px 39px 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+@media(max-width:1439px){
+    .form__button{
+        width: 95px;
+        height: 83px;
+        margin: 18px 69px 0 0;
+        padding: 17px 8px 39px 13px;
+        line-height: 2.22;
+    }
+}
+
+@media(max-width:1023px){
+    .form__button{
+        width: 526px;
+        height: 74px;
+        margin: -1px 69px 0px 0px;
+        font-size: 22px;
+        line-height: 0.39;
+        letter-spacing: 3.74px;
+        padding: 29px 8px 34px 13px;
+    }
+}
+
+.about{
+    height: 504px;
+    background-color: #fff;
+}
+
+@media(max-width:1439px){
+    .about{
+        margin: 51px 0 0 -141px;
+    }
+}
+
+@media(max-width:1023px){
+    .about{
+        margin: 175px 0 469px -141px;
+    }
+}
+
+.about__inner{
+    display: flex;
+    margin-left: 316px;
+}
+
+@media(max-width:1023px){
+    .about__inner{
+        display: block;
+    }
+}
+
+.about__description{
+    text-align: center;
+    max-width: 360px;
+}
+
+.about__subtitle{
+    margin: 89px 5px 16px 0;
+}
+
+@media(max-width:1439px){
+    .about__subtitle{
+        margin: 92px 8px 16px 0;
+    }
+}
+
+@media(max-width:1023px){
+    .about__subtitle{
+        padding: 94px 95px 0 0px;
+        margin: 92px 8px 41px 0;
+    }
+}
+
+.about__title{
+    margin: 0;
+}
+
+@media(max-width:1439px){
+    .about__title{
+        margin: -3px 6px 0px 0;
+    }
+}
+
+@media(max-width:1023px){
+    .about__title{
+        font-size: 36px;
+        line-height: 0.75;
+        width: 385px;
+        margin:-3px 7px 0px -65px;
+    }
+}
+
+.about-btn{
+    color: #fff;
+    background-color: #c19b76;
+    width: 103px;
+    height: 33px;
+    border: none;
+    letter-spacing: 1.4px;
+    margin: 0 0 0px 126px;
+    padding: 7px 0 0 0;
+}
+
+@media(max-width:1439px){
+    .about-btn{
+        width: 115px;
+        height: 25px;
+        margin: 0 0px 0 117px;
+        padding: 4px 1px 0px 0px;
+        letter-spacing: 2.0px;
+    }
+}
+
+@media(max-width:1023px){
+    .about-btn{
+        width: 315px;
+        height: 55px;
+        font-size: 18px;
+        letter-spacing: 3.5px;
+        margin: -5px 69px 0px -29px;
+        padding: 8px 0 0px 2px;
+    }
+}
+
+.about__photos{
+    position: relative;
+}
+
+.about__photos-bedroom{
+    width: 326px;
+    height: 218px;
+    z-index: 10;
+    margin-top: 78px;
+    margin-left: 63px;
+    position: absolute;
+}
+
+@media(max-width:1439px){
+    .about__photos-bedroom{
+        width: 232px;
+        height: 155px;
+        margin: 83px 0px 0 -10px;
+    }
+}
+
+@media(max-width:1023px){
+    .about__photos-bedroom{
+        width: 280px;
+        height: 187px;
+        margin: 121px 0px 0px 54px;
+    }
+}
+
+.about__photos-window{
+    width: 345px;
+    height: 230px; 
+    z-index: 20;
+    position: absolute;
+    margin-top: 249px;
+    margin-left: 22px;
+}
+
+@media(max-width:1439px){
+    .about__photos-window{
+        width: 245px;
+        height: 164px;
+        margin: 206px 0 0px -39px;
+    }
+}
+
+@media(max-width:1023px){
+    .about__photos-window{
+        width: 298px;
+        height: 198px;
+        margin: 68px 0px 0 -174px;
+    }
+}
+
+.about__photos-bathroom{
+    width: 252px;
+    height: 341px;
+    z-index: 30;
+    position: absolute;
+    margin: 102px 3px 2px 701px;
+}
+
+@media(max-width:1439px){
+    .about__photos-bathroom{
+        width: 179px;
+        height: 242px;
+        margin: 103px 0 0 546px;
+    }
+}
+
+@media(max-width:1023px){
+    .about__photos-bathroom{
+        width: 213px;
+        height: 286px;
+        margin: 6px 0 0 251px;
+    }
+}
+
+.about__text{
+    margin: 15px 0px 26px -17px;
+    text-align: center;
+}
+
+@media(max-width:1439px){
+    .about__text{
+        padding: 1px 56px 3px 37px;
+        font-size: 9px;
+        line-height: 1.78;
+        letter-spacing: 0.54px;
+        margin: 8px 0 15px 0;
+    }
+}
+
+@media(max-width:1023px){
+    .about__text{
+        font-size: 22px;
+        line-height: 1.64;
+        letter-spacing: 1.32px;
+        width: 508px;
+        margin: 27px 1px 38px -122px;
+    }
+}
+
+.rooms{
+    height: 618px;
+    background-color:#f9f9f9;
+}
+
+@media(max-width:1439px){
+    .rooms{
+        height: 455px;
+    }
+}
+
+@media(max-width:1023px){
+    .rooms{
+        height: 806px;
+    }
+}
+
+.rooms__inner{
+    text-align: center;
+    margin-top: 52px;
+}
+
+@media(max-width:1439px){
+    .rooms__inner{
+        margin: -45px 4px 9px 0;
+    }
+}
+
+.rooms__hr{
+    background-color: #878787;
+    margin: 3px auto 9px;
+}
+
+.rooms__title{
+    font-size: 41.5px;
+    line-height: 1.46;
+    margin-top: -3px;
+    margin-bottom: 26px;
+}
+
+@media(max-width:1439px){
+    .rooms__title{
+        font-size: 30px;
+        line-height: 1.43;
+        margin: -4px 0 19px 0;
+    }
+}
+
+@media(max-width:1023px){
+    .rooms__title{
+        font-size: 36px;
+        line-height: 0.75;
+        margin: 20px 0 48px 3px;
+    }
+}
+
+.rooms__suites{
+    display: flex;
+    margin-left: 282px;
+}
+
+@media(max-width:1439px){
+    .rooms__suites{
+        margin-left: 174px;
+    }
+}
+
+@media(max-width:1023px){
+    .rooms__suites{
+        display: block;
+    }
+}
+
+.suites__adriatic{
+    margin-right: 22px;
+    background-color: #fff;
+}
+
+@media(max-width:1439px){
+    .suites__adriatic{
+        margin-right: -7px;
+    }
+}
+
+.suites__adriatic-photo{
+    width: 428px;
+    height: 185px;
+    position: relative;
+    z-index: 10;
+}
+
+@media(max-width:1439px){
+    .suites__adriatic-photo{
+        width: 305px;
+        height: 132px;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__adriatic-photo{
+        width: 430px;
+        height: 187px;
+        margin-left: -178px;
+    }
+}
+
+.suites__name-adriatic{
+    margin: -32px 0px 0px 22px;
+}
+
+@media(max-width:1439px){
+    .suites__name-adriatic{
+        margin: -26px 0px 0px 44px;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__name-adriatic{
+        margin: -37px 0px 0px -48px;
+    }
+}
+
+.suites__name-atelier{
+    margin: -34px 0px 0px 21px;
+}
+
+@media(max-width:1439px){
+    .suites__name-atelier{
+        margin: -27px 0px 0px 16px;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__name-atelier{
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+.suites__name-piazza{
+    margin: -33px 0px 0px 246px;
+}
+
+@media(max-width:1439px){
+    .suites__name-piazza{
+        margin: -27px 0px 0px 176px;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__name-piazza{
+        display: none;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__photo_gallery{
+        display: none;
+    }
+}
+
+.suites__name-gallery{
+    margin: 154px 0px 0px 21px;
+}
+
+@media(max-width:1439px){
+    .suites__name-gallery{
+        margin: 109px 0px 0px 17px;
+
+    }
+}
+
+.suites__name-grand{
+    margin: 155px 0px 0px 246px;
+}
+
+@media(max-width:1439px){
+    .suites__name-grand{
+        margin: 108px 0px 0px 177px;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__name-grand{
+        display: none;
+    }
+}
+
+.suits__adriatic-description{
+    text-align: left;
+    padding: 26px 22px 21px;
+} 
+
+@media(max-width:1439px){
+    .suits__adriatic-description{
+        padding: 17px 43px 24px;
+    }
+}
+
+@media(max-width:1023px){
+    .suits__adriatic-description{
+        display: none;
+    }
+}
+
+.suites__adriatic-text{
+    max-width: 312px;
+    margin: 0 0 16px 0;
+}
+
+@media(max-width:1439px){
+    .suites__adriatic-text{
+        max-width: 267px;
+        font-size: 9px;
+        line-height: 2;
+        margin: 0 0 11px 0;
+    } 
+}
+
+.suites
+.suits__photos-first{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+@media(max-width:1439px){
+    .suits__photos-first{
+        margin-bottom: 11px;
+    }
+}
+
+@media(max-width:1023px){
+    .suits__photos-first{
+        display: block;
+    }
+}
+
+.suits__photos-second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+
+@media(max-width:1023px){
+    .suits__photos-second{
+        display: block;
+    }
+}
+
+.suites__photo{
+    width: 203px;
+}
+
+@media(max-width:1439px){
+    .suites__photo{
+        width: 146px;
+        height: 132px;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__photo{
+        width: 426px;
+        height: 187px;
+    }
+}
+
+.suites__photo_bottom{
+    margin-right: 17px;
+}
+
+@media(max-width:1439px){
+    .suites__photo_bottom{
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__photo_bottom{
+        margin: 21px 96px 0 -77px;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__photo_piazza{
+        display: block;
+        margin: 19px 0 0px -69px;
+    }
+}
+
+@media(max-width:1023px){
+    .suites__photo-grand{
+        display: none;
+    }
+}
+
+.best-resorts{
+    width: 100%;
+    height: 480px;
+    background-color:#1c1c1c;
+}
+
+@media(max-width:1439px){
+    .best-resorts{
+        height: 342px;
+    }
+}
+
+@media(max-width:1023px){
+    .best-resorts{
+        height: 712px;
+    }
+}
+
+.best-resorts__inner{
+    display: flex;
+    margin: -52px 0px 0px -3px;
+}
+
+@media(max-width:1023px){
+    .best-resorts__inner{
+        display: block;
+    }
+}
+
+@media(max-width:1023px){
+    .best-resorts__photo{
+        display: flex;
+    }
+}
+.resort__photo{
+    width: 361px;
+    height: 239px;
+}
+
+@media(max-width:1439px){
+    .resort__photo{
+        width: 257px;
+        height: 171px;
+    }
+}
+
+@media(max-width:1023px){
+    .resort__photo{
+        width: 156px;
+        height: 101px;
+        margin: 2px -1px 0px 5px;
+    }
+}
+.best-resorts__photos{
+    display: flex;
+}
+
+@media(max-width:1023px){
+    .best-resorts__photos{
+        display: flex;
+    }
+}
+
+.best-resorts__text{
+    padding: 72px 106px 85px 72px;
+}
+
+
+.best-resorts__title{
+    color: #fff;
+    max-width: 309px;
+    margin: 9px 0px 0 4px;
+}
+
+@media(max-width:1439px){
+    .best-resorts__title{
+        margin: 5px 0px 0 -17px;
+    }
+}
+
+@media(max-width:1023px){
+    .best-resorts__title{
+        font-size: 32px;
+        line-height: 0.84;
+        margin: 29px 0px 0 106px;
+    }
+}
+
+span{
+    color: #c19b76;
+}
+
+.best-resorts__description{
+    display: flex;
+    margin: 20px 0px 19px 5px;
+}
+
+@media(max-width:1439px){
+    .best-resorts__description p{
+        margin: 0px 60px -18px -22px;;
+        font-size: 9px;
+        font-weight: 300;
+        line-height: 2;
+        letter-spacing: 0.54px;
+    }
+}
+
+@media(max-width:1023px){
+    .best-resorts__description{
+        display: block;
+    }
+}
+
+@media(max-width:1023px){
+    .best-resorts__description p{
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.64;
+        letter-spacing: 1.32px;
+        width: 529px;
+        margin: 16px 4px 5px -27px;
+        text-align: center;
+    }
+}
+
+.best-resorts__description_text{
+    max-width: 265px;
+    margin-right: 40px;
+}
+
+@media(max-width:1023px){
+    .best-resorts__description_text{
+        max-width: 548px;
+    }
+}
+
+@media(max-width:1439px){
+    .best-resorts__description_text{
+        width:175px;
+    }
+}
+
+.best-resorts__description_right{
+    max-width: 245px;
+}
+
+@media(max-width:1439px){
+    .best-resorts__description_right{
+        width: 195px;
+    }
+}
+
+@media(max-width:1023px){
+    .best-resorts__description_right{
+        max-width: 485px;
+        padding: 0px 0 3px 51px;
+    }
+}
+
+.best-resorts__btn{
+    margin-left: 4px;
+    color: #fff;
+    width: 165px;
+    height: 33px;
+    background-color: #151515;
+    border: none;
+    letter-spacing: 1.3px;
+}
+
+@media(max-width:1439px){
+    .best-resorts__btn{
+        width: 158px;
+        height: 25px;
+        font-size: 9px;
+        line-height: 1.61;
+        letter-spacing: 1.5px;
+        margin: -1px 0px 0 -5px;
+    }
+}
+
+@media(max-width:1023px){
+    .best-resorts__btn{
+        width: 335px;
+        height: 61px;
+        font-size: 18px;
+        letter-spacing: 3.1px;
+        margin: -20px 0 0px 79px;
+        padding: 0 0px 0 9px;
+    }
+}
+
+.advantages{
+    height: 195px;
+}
+
+@media(max-width:1439px){
+    .advantages{
+        height: 171px;
+    }
+}
+
+@media(max-width:1023px){
+    .advantages{
+        height: 144px;
+    }
+}
+
+.advantages__text{
+    margin:0 auto;
+    padding-top: 49px;
+    width: 565px;
+    font-family: 'Gilda Display', serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.79;
+    text-align: center;
+    color: #1c1c1c;
+    letter-spacing: -0.1px;
+}
+
+@media(max-width:1439px){
+    .advantages__text{
+        font-size: 13.5px;
+        line-height: 1.78;
+        margin: 4px 3px 0 229px;
+    }
+}
+
+@media(max-width:1023px){
+    .advantages__text{
+        width: 432px;
+        width: 432px;
+        height: 69px;
+        font-size: 16px;
+        line-height: 1.63;
+        margin: -31px 60px 0px 103px;
+    }
+}
