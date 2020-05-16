@@ -14,27 +14,28 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header__top">
+            <div class="header__top" id="header__top">
                 <div class="container">
                     <div class="header__menu">
-                        <a class="header__logo" href="#">
+                        <a class="header__logo" href="index.html">
                             <img src="images/logo.svg" alt="logo" class="header__logo-img">
                         </a>
                         <nav class="menu">
-                            <ul class=" header__links links">
-                                <li><a class="link" href="index.html">Home</a></li>
-                                <li><a class="link" href="rooms.html">Rooms</a></li>
-                                <li><a class="link" href="page.html">Single Room</a></li>
-                                <li><a class="link" href="#">Booking</a></li>
-                                <li><a class="link" href="#">Our News</a></li>
-                                <li><a class="link" href="#">Contact</a></li>
+                            <img src="images/menu.svg" alt="menu" class="menu__mobile_burger" onclick="changeNav()">
+                            <img src="images/close.svg" alt="close" class="menu__mobile_open" onclick="changeNav()">
+                            <ul class=" header__links links links__open">
+                                <li class="header__links_menu"><a class="link" href="index.html">Home</a></li>
+                                <li class="header__links_menu"><a class="link" href="rooms.html">Rooms</a></li>
+                                <li class="header__links_menu"><a class="link" href="page.html">Single Room</a></li>
+                                <li class="header__links_menu"><a class="link" href="#">Booking</a></li>
+                                <li class="header__links_menu"><a class="link" href="#">Our News</a></li>
+                                <li class="header__links_menu"><a class="link" href="#">Contact</a></li>
                             </ul>
                         </nav>
-                        <img src="images/menu.svg" alt="menu" class="menu_mobile">
                     </div>
                 </div>
             </div>
-            <div class="header__main">
+            <div class="header__main" data-speed="10" data-type="background">
                 <div class="container">
                     <div class="header__main-inner">
                         <div class="header__subtitle">
@@ -115,17 +116,18 @@
                     <h2 class="about__title">
                         Pearl of the Adriatic
                     </h2>
-                    <p class="about__text">Hotel Bayview is a luxurious boutique hotel located in the heart of Rovinj’s
-                        lively Old town. Offering views of the harbor, St. Catherine's Island or the Main Square, each
-                        suite is fitted with design furniture and local art. Guests can relax at 2 on-site bars and a
+                    <p class="about__text">
+                        Hotel Bayview is&nbsp;a&nbsp;luxurious   boutique hotel located in&nbsp;the heart of&nbsp;Rovinj&rsquo;s
+                        lively Old town. Offering views of&nbsp;the harbor, St. Catherine&rsquo;s Island or&nbsp;the Main Square, each
+                        suite is&nbsp;fitted with design furniture and local art. Guests can relax at&nbsp;2&nbsp;on-site bars and a
                         brasserie style restaurant.</p>
                     <a href="#" class="about-btn">ABOUT US</a>
                 </div>
                 <div class="about__photos">
                     <img src="images/main-images/main-gallery@2x.jpg" alt="bedroom" class="about__photos-bedroom">
                     <img src="images/main-images/main-window@2x.png" alt="window" class="about__photos-window">
-                </div>
-                <img src="images/main-images/main-bathroom@2x.png" alt="bathroom" class="about__photos-bathroom">
+                    <img src="images/main-images/main-bathroom@2x.png" alt="bathroom" class="about__photos-bathroom">
+                
             </div>
         </section>
         <section class="rooms">
@@ -151,28 +153,36 @@
                                     <div class="suites__space-number">57 m²</div>
                                 </div>
                             </div>
-                            <p class="suites__adriatic-text">Offering 2 balconies and views of Rovinj's Main Square and
-                                the lively waterfront and the main promenade.</p>
+                            <p class="suites__adriatic-text">
+                                Offering 2&nbsp;balconies and views of&nbsp;Rovinj&rsquo;s Main Square and the lively waterfront and the main promenade.</p>
                             <a href="page.html" class="suites__button">BOOK NOW FROM 300$</a>
                         </div>
                     </div>
                     <div class="suites__photos">
                         <div class="suits__photos-first">
-                            <img src="images/main-images/main-atelier@2x.jpg" alt="atelier" class="suites__photo suites__photo_bottom">
+                            <div class="suits__photos_before">
+                                <img src="images/main-images/main-atelier@2x.jpg" alt="atelier" class="suites__photo suites__photo_bottom">
+                            </div>
                             <p class="suites__name suites__name-atelier">
                                 Atelier
                             </p>
-                            <img src="images/main-images/main-piazza@2x.jpg" alt="piazza" class="suites__photo suites__photo_piazza">
-                            <p class="suites__name suites__name-piazza">
-                                Piazza
-                            </p>
-                        </div>
-                        <div class="suits__photos-second">
-                            <img src="images/main-images/main-gallery@2x.jpg" alt="gallery" class="suites__photo suites__photo_bottom suites__photo_gallery" >
+                            <div class="suits__photos_before">
+                                <img src="images/main-images/main-gallery@2x.jpg" alt="gallery" class="suites__photo suites__photo_bottom suites__photo_gallery" >
+                            </div>
                             <p class="suites__name suites__name-gallery">
                                 Gallery
                             </p>
-                            <img src="images/main-images/main-grand@2x.jpg" alt="grand-piazza-suite" class="suites__photo suites__photo-grand">
+                        </div>
+                        <div class="suits__photos-second">
+                            <div class="suits__photos_before">
+                                <img src="images/main-images/main-piazza@2x.jpg" alt="piazza" class="suites__photo suites__photo_piazza">
+                            </div>
+                            <p class="suites__name suites__name-piazza">
+                                Piazza
+                            </p>
+                            <div class="suits__photos_before">
+                                <img src="images/main-images/main-grand@2x.jpg" alt="grand-piazza-suite" class="suites__photo suites__photo-grand">
+                            </div>
                             <p class="suites__name suites__name-grand">
                                  Grand Piazza Suite
                             </p>
@@ -223,15 +233,17 @@
         <footer class="footer">
             <nav class="menu footer__menu">
                 <ul class="footer__nav links">
-                    <li><a href="" class="link footer__link">Home</a></li>
-                    <li><a href="" class="link footer__link">About Us</a></li>
-                    <li><a href="" class="link footer__link">Services</a></li>
-                    <li><a href="" class="link footer__link">Booking</a></li>
-                    <li><a href="" class="link footer__link">Contact</a></li>
+                    <li><a href="" class="footer__link">Home</a></li>
+                    <li><a href="" class="footer__link">About Us</a></li>
+                    <li><a href="" class="footer__link">Services</a></li>
+                    <li><a href="" class="footer__link">Booking</a></li>
+                    <li><a href="" class="footer__link">Contact</a></li>
                 </ul>
             </nav>
         </footer>
     </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

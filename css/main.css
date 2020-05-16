@@ -1,36 +1,45 @@
 .header__main{
-    background-image: url('../images/main-images/header-background@2x.jpg');
-    min-height: 576px;
+    background: url('../images/main-images/header-background@2x.jpg') no-repeat bottom fixed;
+    height: 628px;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    z-index: 10;
+    position: relative;
+    text-align: center;
+}
+
+.header__main::before{
+    content: "";
+    background: linear-gradient(to top, rgba(28, 28, 28, 0.2), rgba(28, 28, 28, 0.2));
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 20;
+    position: absolute;
 }
 
 @media (max-width:1439px){
     .header__main{
-        min-height: 258px;
-        position: relative;
+        height: 298px;
         background-position: 50% 77%;
     }
 }
 
 @media (max-width:1023px){
     .header__main{
-        min-height: 258px;
-        position: relative;
-        background-position: 50% 133%;
+        height: 240px;
+        background-position: 50% 100%;
     }
 }
 
 .header__main-inner{
     text-align: center;
-    padding-top: 72px;
+    padding-top: 123px;
 }
 
 @media(max-width:1439px){
     .header__main-inner{
         text-align: center;
-        padding-top: 62px;
+        padding-top: 61px;
     }
 }
 
@@ -41,6 +50,7 @@
     font-size: 9px;
     line-height: 2.27;
     letter-spacing: 1.65px;
+    z-index: 30;
 }
 
 @media(max-width:1439px){
@@ -48,6 +58,7 @@
         font-size: 10px;
         line-height: 1.45;
         letter-spacing: 1.7px;
+        margin: 42px 0 0 0;
     }
 }
 
@@ -79,16 +90,13 @@ hr{
 .header__hr{
     background-color: #fff;
     margin-top: 13px;
+    z-index: 30;
 }
 
 @media(max-width:1439px){
     .header__hr{
         margin-top: 11px;
     }
-}
-
-.header a{
-    color: #fff;
 }
 
 .header__btn{
@@ -104,6 +112,12 @@ hr{
     letter-spacing: 1.2px;
     margin: 0 0px 93px 337px;
     padding: 7px 0 0 0;
+    transition: 2s ease-in-out;
+    z-index: 30;
+}
+
+.header__btn:hover{
+    background-color: black;
 }
 
 @media(max-width:1439px){
@@ -122,12 +136,15 @@ hr{
         font-size: 18px;
         line-height: 0.5;
         letter-spacing: 3.2px;
-        margin: 0px 0 78px 199px;
-        padding: 20px 0 0 0;
+        margin: 3px 0 78px 199px;
+        padding: 22px 0 0 0;
     }
 }
 .header__form{
-    margin: 0px 0px 100px 139px;
+    width: 66%;
+    left: 17%;
+    margin: 0 auto;
+    z-index: 30;
 }
 
 @media(max-width:1439px){
@@ -136,10 +153,18 @@ hr{
     }
 }
 
+@media(max-width:1023px){
+    .header__form{
+        width: 37%;
+        left: 20%;
+    }
+}
+
 form{
     display: flex;
-    width: 540px;
+    width: 100%;
     height: 100px;
+    z-index: 30;
 }
 
 @media(max-width:1439px){
@@ -152,9 +177,8 @@ form{
     form{
         display: block;
         border: 1px solid #a3a3a3;
-        max-width: 526px;
         height: 141px;
-        margin: -2px 2px 0 -83px;
+        margin: 0 auto;
     }
 }
 
@@ -163,19 +187,20 @@ form{
     display: flex;
     justify-content: space-between;
     padding: 21px 54px 0px 43px;
+    z-index: 30;
 }
 
 @media(max-width:1439px){
     .form__box{
-        margin: 14px 0px 0 -23px;
-        padding: 21px 38px 0px 99px;    
+        margin: 14px -1px 0 -12px;
+        padding: 36px 20px 0px 225px;
     }
 }
 
 @media(max-width:1023px){
     .form__box{
         padding: 21px 25px 21px 0px;
-        margin: 4px 0px 0 2px;
+        margin: 4px 0px 0 -17px;
     }
 }
 
@@ -186,7 +211,8 @@ form{
 
 @media(max-width:1439px){
     .form__box-input{
-        margin: -11px 0px 0 -5px;
+        margin: -25px -35px 3px -5px;
+        width: 33%;
     }
 }
 
@@ -212,13 +238,18 @@ form{
     padding: 34px 28px 39px 30px;
     outline: none;
     cursor: pointer;
+    transition: 2s ease-in-out;
+}
+
+.form__button:hover{
+    background-color: #c19b76;
 }
 
 @media(max-width:1439px){
     .form__button{
         width: 95px;
         height: 83px;
-        margin: 18px 69px 0 0;
+        margin: 18px 72px 0 62px;
         padding: 17px 8px 39px 13px;
         line-height: 2.22;
     }
@@ -226,7 +257,7 @@ form{
 
 @media(max-width:1023px){
     .form__button{
-        width: 526px;
+        width: 100%;
         height: 74px;
         margin: -1px 69px 0px 0px;
         font-size: 22px;
@@ -243,19 +274,25 @@ form{
 
 @media(max-width:1439px){
     .about{
-        margin: 51px 0 0 -141px;
+        margin: 51px 0 0 68px;
     }
 }
 
 @media(max-width:1023px){
     .about{
-        margin: 175px 0 469px -141px;
+        margin: 175px 0 479px -141px;
     }
 }
 
 .about__inner{
     display: flex;
-    margin-left: 316px;
+    margin-left: 299px;
+}
+
+@media(max-width:1439px){
+    .about__inner{
+        margin-left: 220px;
+    }
 }
 
 @media(max-width:1023px){
@@ -266,7 +303,22 @@ form{
 
 .about__description{
     text-align: center;
-    max-width: 360px;
+    width: 34%;
+}
+
+@media(max-width:1439px){
+    .about__description{
+        padding: 0px 73px 0px 0px;
+        width: 38%;
+    }
+}
+
+
+@media(max-width:1023px){
+    .about__description{
+        padding: 0px 0px 2px 322px;
+        width: 58%;
+    }
 }
 
 .about__subtitle{
@@ -275,14 +327,14 @@ form{
 
 @media(max-width:1439px){
     .about__subtitle{
-        margin: 92px 8px 16px 0;
+        margin: 92px -14px 17px 0px;
     }
 }
 
 @media(max-width:1023px){
     .about__subtitle{
-        padding: 94px 95px 0 0px;
-        margin: 92px 8px 41px 0;
+        padding: 150px 196px 40px 0px;
+        margin: 0 auto;
     }
 }
 
@@ -292,7 +344,7 @@ form{
 
 @media(max-width:1439px){
     .about__title{
-        margin: -3px 6px 0px 0;
+        margin: -3px -11px 0px 0;
     }
 }
 
@@ -301,7 +353,7 @@ form{
         font-size: 36px;
         line-height: 0.75;
         width: 385px;
-        margin:-3px 7px 0px -65px;
+        margin: -3px 7px 0px -62px;
     }
 }
 
@@ -312,28 +364,33 @@ form{
     height: 33px;
     border: none;
     letter-spacing: 1.4px;
-    margin: 0 0 0px 126px;
+    margin: 0px 0 0px 144px;
     padding: 7px 0 0 0;
+    transition: 2s ease-in;
+}
+
+.about-btn:hover{
+    background-color: #151515;
 }
 
 @media(max-width:1439px){
     .about-btn{
-        width: 115px;
-        height: 25px;
-        margin: 0 0px 0 117px;
-        padding: 4px 1px 0px 0px;
+        width: 31%;
+        height: 24px;
+        margin: 0 0px 0 131px;
+        padding: 3px 1px 0px 0px;
         letter-spacing: 2.0px;
     }
 }
 
 @media(max-width:1023px){
     .about-btn{
-        width: 315px;
+        min-width: 67%;
         height: 55px;
         font-size: 18px;
         letter-spacing: 3.5px;
-        margin: -5px 69px 0px -29px;
-        padding: 8px 0 0px 2px;
+        margin: -80px 80px 0px -23px;
+        padding: 10px 0 0px 0px;
     }
 }
 
@@ -346,7 +403,7 @@ form{
     height: 218px;
     z-index: 10;
     margin-top: 78px;
-    margin-left: 63px;
+    margin-left: 53px;
     position: absolute;
 }
 
@@ -354,7 +411,7 @@ form{
     .about__photos-bedroom{
         width: 232px;
         height: 155px;
-        margin: 83px 0px 0 -10px;
+        margin: 83px 0px 0 -74px;
     }
 }
 
@@ -362,7 +419,7 @@ form{
     .about__photos-bedroom{
         width: 280px;
         height: 187px;
-        margin: 121px 0px 0px 54px;
+        margin: 121px 0px 0px 382px;
     }
 }
 
@@ -372,14 +429,14 @@ form{
     z-index: 20;
     position: absolute;
     margin-top: 249px;
-    margin-left: 22px;
+    margin-left: 12px;
 }
 
 @media(max-width:1439px){
     .about__photos-window{
         width: 245px;
         height: 164px;
-        margin: 206px 0 0px -39px;
+        margin: 206px 0 0px -104px;
     }
 }
 
@@ -387,7 +444,7 @@ form{
     .about__photos-window{
         width: 298px;
         height: 198px;
-        margin: 68px 0px 0 -174px;
+        margin: 69px 0px 0 152px;
     }
 }
 
@@ -396,14 +453,14 @@ form{
     height: 341px;
     z-index: 30;
     position: absolute;
-    margin: 102px 3px 2px 701px;
+    margin: 102px 3px 2px 328px;
 }
 
 @media(max-width:1439px){
     .about__photos-bathroom{
         width: 179px;
         height: 242px;
-        margin: 103px 0 0 546px;
+        margin: 103px 0 0px 122px;
     }
 }
 
@@ -411,22 +468,22 @@ form{
     .about__photos-bathroom{
         width: 213px;
         height: 286px;
-        margin: 6px 0 0 251px;
+        margin: 6px 0 0 577px;
     }
 }
 
 .about__text{
-    margin: 15px 0px 26px -17px;
+    margin: 15px 0px 47px -17px;
     text-align: center;
 }
 
 @media(max-width:1439px){
     .about__text{
-        padding: 1px 56px 3px 37px;
         font-size: 9px;
         line-height: 1.78;
         letter-spacing: 0.54px;
-        margin: 8px 0 15px 0;
+        margin: 10px 8px 2px 64px;
+        width: 72%;
     }
 }
 
@@ -435,8 +492,8 @@ form{
         font-size: 22px;
         line-height: 1.64;
         letter-spacing: 1.32px;
-        width: 508px;
-        margin: 27px 1px 38px -122px;
+        width: 89%;
+        margin: 27px 0px 114px -82px;
     }
 }
 
@@ -464,7 +521,13 @@ form{
 
 @media(max-width:1439px){
     .rooms__inner{
-        margin: -45px 4px 9px 0;
+        margin: -43px 168px 9px 0;
+    }
+}
+
+@media(max-width:1023px){
+    .rooms__inner{
+        margin: 0px 342px 0px 0;
     }
 }
 
@@ -499,11 +562,13 @@ form{
 .rooms__suites{
     display: flex;
     margin-left: 282px;
+    width: 64%;
 }
 
 @media(max-width:1439px){
     .rooms__suites{
-        margin-left: 174px;
+        margin: 0 auto;
+        width: 52%;
     }
 }
 
@@ -513,6 +578,16 @@ form{
     }
 }
 
+.suits__photos_before::before{
+    position: absolute;
+    z-index: 20;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, var(--black), rgba(28, 28, 28, 0.5));
+}
+
 .suites__adriatic{
     margin-right: 22px;
     background-color: #fff;
@@ -520,7 +595,7 @@ form{
 
 @media(max-width:1439px){
     .suites__adriatic{
-        margin-right: -7px;
+        margin-right: 7px;
     }
 }
 
@@ -542,7 +617,7 @@ form{
     .suites__adriatic-photo{
         width: 430px;
         height: 187px;
-        margin-left: -178px;
+        margin-left: 3px;
     }
 }
 
@@ -558,33 +633,37 @@ form{
 
 @media(max-width:1023px){
     .suites__name-adriatic{
-        margin: -37px 0px 0px -48px;
+        margin: -39px 0px 0px 93px;
     }
 }
 
 .suites__name-atelier{
-    margin: -34px 0px 0px 21px;
+    margin: -53px 0px 0px 21px;
+    position: absolute;
+    z-index: 30;
 }
 
 @media(max-width:1439px){
     .suites__name-atelier{
-        margin: -27px 0px 0px 16px;
+        margin: -41px 0px 0px 9px;
     }
 }
 
 @media(max-width:1023px){
     .suites__name-atelier{
-        margin: 0px 0px 0px 0px;
+        margin: -42px 0px 0px 96px;
     }
 }
 
 .suites__name-piazza{
-    margin: -33px 0px 0px 246px;
+    margin: -52px 0px 0px 23px;
+    position: absolute;
+    z-index: 30;
 }
 
 @media(max-width:1439px){
     .suites__name-piazza{
-        margin: -27px 0px 0px 176px;
+        margin: -47px 0px 0px 20px;
     }
 }
 
@@ -601,23 +680,34 @@ form{
 }
 
 .suites__name-gallery{
-    margin: 154px 0px 0px 21px;
+    margin: -54px 0px 0px 21px;
+    position: absolute;
+    z-index: 30;
 }
 
 @media(max-width:1439px){
     .suites__name-gallery{
-        margin: 109px 0px 0px 17px;
+        margin: -45px 0px 0px 9px;
 
     }
 }
 
+@media(max-width:1023px){
+    .suites__name-gallery{
+        margin: 174px 0px 0px 94px;
+    }
+}
+
 .suites__name-grand{
-    margin: 155px 0px 0px 246px;
+    margin: -52px 0px 0px 23px;
+    position: absolute;
+    z-index: 30;
 }
 
 @media(max-width:1439px){
     .suites__name-grand{
-        margin: 108px 0px 0px 177px;
+        margin: -46px 0px 0px 20px;
+}
     }
 }
 
@@ -634,7 +724,7 @@ form{
 
 @media(max-width:1439px){
     .suits__adriatic-description{
-        padding: 17px 43px 24px;
+        padding: 17px 37px 22px;
     }
 }
 
@@ -654,15 +744,18 @@ form{
         max-width: 267px;
         font-size: 9px;
         line-height: 2;
-        margin: 0 0 11px 0;
+        margin: 0 0 9px 0;
     } 
 }
 
-.suites
-.suits__photos-first{
+.suites{
     display: flex;
     justify-content: space-between;
     margin-bottom: 23px;
+}
+
+.suites__photos{
+    display: flex;
 }
 
 @media(max-width:1439px){
@@ -678,9 +771,13 @@ form{
 }
 
 .suits__photos-second{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 11px;
+    margin-top: 0;
+}
+
+@media(max-width:1439px){
+    .suits__photos-second{
+        margin-top: 11px;
+    }
 }
 
 @media(max-width:1023px){
@@ -691,12 +788,16 @@ form{
 
 .suites__photo{
     width: 203px;
+    height: 183px;
+    margin: 0 0 19px 0;
 }
+
 
 @media(max-width:1439px){
     .suites__photo{
         width: 146px;
         height: 132px;
+        margin: -8px 0 18px 3px;
     }
 }
 
@@ -708,7 +809,7 @@ form{
 }
 
 .suites__photo_bottom{
-    margin-right: 17px;
+    margin: 0px 21px 15px -7px;
 }
 
 @media(max-width:1439px){
@@ -719,14 +820,14 @@ form{
 
 @media(max-width:1023px){
     .suites__photo_bottom{
-        margin: 21px 96px 0 -77px;
+        margin: 21px 96px 0 73px;
     }
 }
 
 @media(max-width:1023px){
     .suites__photo_piazza{
         display: block;
-        margin: 19px 0 0px -69px;
+        margin: 218px 0 0px -523px;
     }
 }
 
@@ -756,7 +857,19 @@ form{
 
 .best-resorts__inner{
     display: flex;
-    margin: -52px 0px 0px -3px;
+    margin: -52px 0px 0px 0px;
+}
+
+@media(max-width:1439px){
+    .best-resorts__inner{
+        margin: -50px 0px 0px 124px;
+    }
+}
+
+@media(max-width:1023px){
+    .best-resorts__inner{
+        margin: -52px 0px 0px 228px;
+    }
 }
 
 @media(max-width:1023px){
@@ -803,6 +916,12 @@ form{
     padding: 72px 106px 85px 72px;
 }
 
+@media(max-width:1439px){
+    .best-resorts__text{
+        padding: 70px 92px 85px 69px;
+    }
+}
+
 
 .best-resorts__title{
     color: #fff;
@@ -820,7 +939,8 @@ form{
     .best-resorts__title{
         font-size: 32px;
         line-height: 0.84;
-        margin: 29px 0px 0 106px;
+        margin: 28px 0px 10px 110px;
+        padding: 0 0 23px 0;    
     }
 }
 
@@ -846,6 +966,8 @@ span{
 @media(max-width:1023px){
     .best-resorts__description{
         display: block;
+        margin: 0px 0px 0px -8px;
+        padding: 0px 2px 0 0px;
     }
 }
 
@@ -855,14 +977,14 @@ span{
         font-weight: 300;
         line-height: 1.64;
         letter-spacing: 1.32px;
-        width: 529px;
-        margin: 16px 4px 5px -27px;
+        width: 46%;
+        margin: 0px 4px 0px 0px;
         text-align: center;
     }
 }
 
 .best-resorts__description_text{
-    max-width: 265px;
+    width: 50%;
     margin-right: 40px;
 }
 
@@ -879,7 +1001,7 @@ span{
 }
 
 .best-resorts__description_right{
-    max-width: 245px;
+    width: 46%;
 }
 
 @media(max-width:1439px){
@@ -890,8 +1012,7 @@ span{
 
 @media(max-width:1023px){
     .best-resorts__description_right{
-        max-width: 485px;
-        padding: 0px 0 3px 51px;
+        padding: 0px 0 3px 30px;
     }
 }
 
@@ -903,6 +1024,12 @@ span{
     background-color: #151515;
     border: none;
     letter-spacing: 1.3px;
+    transition: 2s ease-in;
+    cursor: pointer;
+}
+
+.best-resorts__btn:hover{
+    background-color: #c19b76;
 }
 
 @media(max-width:1439px){
@@ -922,7 +1049,7 @@ span{
         height: 61px;
         font-size: 18px;
         letter-spacing: 3.1px;
-        margin: -20px 0 0px 79px;
+        margin: 2px 0 0px 84px;
         padding: 0 0px 0 9px;
     }
 }
@@ -933,7 +1060,7 @@ span{
 
 @media(max-width:1439px){
     .advantages{
-        height: 171px;
+        height: 165px;
     }
 }
 
@@ -944,9 +1071,9 @@ span{
 }
 
 .advantages__text{
-    margin:0 auto;
+    margin: 3px auto 0;
     padding-top: 49px;
-    width: 565px;
+    width: 100%;
     font-family: 'Gilda Display', serif;
     font-weight: 500;
     font-size: 19px;
@@ -960,17 +1087,15 @@ span{
     .advantages__text{
         font-size: 13.5px;
         line-height: 1.78;
-        margin: 4px 3px 0 229px;
     }
 }
 
 @media(max-width:1023px){
     .advantages__text{
-        width: 432px;
-        width: 432px;
+        width: 89%;
         height: 69px;
         font-size: 16px;
         line-height: 1.63;
-        margin: -31px 60px 0px 103px;
+        margin: -30px 0px 0px -68px;
     }
 }

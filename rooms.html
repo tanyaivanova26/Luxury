@@ -13,27 +13,28 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header__top">
+            <div class="header__top" id="header__top">
                 <div class="container">
                     <div class="header__menu">
-                        <a class="header__logo" href="#">
+                        <a class="header__logo" href="index.html">
                             <img src="images/logo.svg" alt="logo" class="header__logo-img">
                         </a>
                         <nav class="menu">
-                            <ul class=" header__links links">
-                                <li><a class="link" href="index.html">Home</a></li>
-                                <li><a class="link" href="rooms.html">Rooms</a></li>
-                                <li><a class="link" href="page.html">Single Room</a></li>
-                                <li><a class="link" href="#">Booking</a></li>
-                                <li><a class="link" href="#">Our News</a></li>
-                                <li><a class="link" href="#">Contact</a></li>
+                            <img src="images/menu.svg" alt="menu" class="menu__mobile_burger" onclick="changeNav()">
+                            <img src="images/close.svg" alt="close" class="menu__mobile_open" onclick="changeNav()">
+                            <ul class=" header__links links links__open">
+                                <li class="header__links_menu"><a class="link" href="index.html">Home</a></li>
+                                <li class="header__links_menu"><a class="link" href="rooms.html">Rooms</a></li>
+                                <li class="header__links_menu"><a class="link" href="page.html">Single Room</a></li>
+                                <li class="header__links_menu"><a class="link" href="#">Booking</a></li>
+                                <li class="header__links_menu"><a class="link" href="#">Our News</a></li>
+                                <li class="header__links_menu"><a class="link" href="#">Contact</a></li>
                             </ul>
                         </nav>
-                        <img src="images/menu.svg" alt="menu" class="menu_mobile">
                     </div>
                 </div>
             </div>
-            <div class="header__main">
+            <div class="header__main" data-speed="10" data-type="background">
                 <div class="container">
                     <div class="header__main-inner">
                         <h1 class="rooms__title">
@@ -172,9 +173,7 @@
                                             </div>
                                         </div>
                                         <p class="rooms__list-text rooms__list-text_width">Offering 2 balconies and views of Rovinj's Main Square and the lively waterfront.</p>
-                                        <button class="suites__button rooms__list-btn">
-                                            <a href="page.html">BOOK NOW from<br class="rooms__list_br">300$</a>
-                                        </button>
+                                        <a href="page.html" class="suites__button rooms__list-btn">BOOK NOW from<br class="rooms__list_br">300$</a>
                                     </div>
                                 </div>
                                 <div class="rooms__atelier rooms__item">
@@ -265,17 +264,19 @@
             </div>
         </section>
         <section class="rooms__black"></section>
-        <footer class="rooms__footer">
+        <footer class="footer">
             <nav class="menu footer__menu">
                 <ul class="footer__nav links">
-                    <li><a href="" class="link footer__link">Home</a></li>
-                    <li><a href="" class="link footer__link">About Us</a></li>
-                    <li><a href="" class="link footer__link">Services</a></li>
-                    <li><a href="" class="link footer__link">Booking</a></li>
-                    <li><a href="" class="link footer__link">Contact</a></li>
+                    <li><a href="" class="footer__link">Home</a></li>
+                    <li><a href="" class="footer__link">About Us</a></li>
+                    <li><a href="" class="footer__link">Services</a></li>
+                    <li><a href="" class="footer__link">Booking</a></li>
+                    <li><a href="" class="footer__link">Contact</a></li>
                 </ul>
             </nav>
         </footer>
     </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

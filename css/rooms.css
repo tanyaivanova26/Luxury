@@ -1,22 +1,31 @@
 
 .header__main{
-    background: url('../images/rooms/rooms-header@2x.jpg');
-    min-height: 290px;
+    background: url('../images/rooms/rooms-header@2x.jpg') no-repeat bottom fixed;
+    min-height: 340px;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
     text-align: center;
+    position: relative;
+}
+
+.header__main::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 20;
+    position: absolute;
+    background: linear-gradient(to top, rgba(28, 28, 28, 0.2), rgba(28, 28, 28, 0.2));
 }
 
 @media(max-width:1439px){
     .header__main{
-        min-height: 143px;
+        min-height: 186px;
     }
 }
 
 @media(max-width:1023px){
     .header__main{
-        min-height: 205px;
+        min-height: 240px;
     }
 }
 
@@ -32,7 +41,12 @@
 
 @media(max-width:1439px){
     .rooms__container{
-        max-width: 645px;
+        max-width: 811px;
+    }
+}
+@media screen and (max-width:1023px){
+    .rooms__container{
+        max-width: 982px;
     }
 }
 
@@ -65,14 +79,16 @@
     font-size: 52px;
     line-height: 1.29;
     width: 204px;
-    margin: 23px auto 0px;
+    margin: 72px 0px 0 305px;
+    z-index: 30;
+    position: absolute;
 }
 
 @media(max-width:1439px){
     .rooms__title{
         font-size: 32px;
         letter-spacing: -0.3px;
-        margin: -16px 0px 0px 306px;
+        margin: 27px 0px 0px 306px;
     }
 }
 
@@ -80,7 +96,7 @@
     .rooms__title{
         font-size: 48px;
         line-height: 0.63;
-        margin: 15px 0px 0px 217px;
+        margin: 50px 0px 0px 217px;
     }
 }
 
@@ -145,7 +161,7 @@
 
 @media(max-width:1023px){
     .branches__box-dates{
-        padding: 16px 0px 0px 71px;
+        padding: 16px 0px 0px 46px;
     }
 }
 
@@ -276,7 +292,7 @@ input::placeholder{
 
 @media(max-width:1023px){
     .branches__box-select{
-        margin: 59px 11px 5px 78px;
+        margin: 61px 11px 4px 93px;
     }
 }
 
@@ -362,18 +378,18 @@ input::placeholder{
 
 @media(max-width:1023px){
     .services__checkbox{
-        margin: 1px 29px 0px -103px;
+        margin: 1px 29px 0px -125px;
         width: 677px;
     }
 }
 
 .services__checkbox_first{
-    margin: -2px -28px 0 0;
+    margin: -2px -74px 0 0;
 }
 
 @media(max-width:1439px){
     .services__checkbox_second{
-        margin: -2px 80px 0 0;
+        margin: -4px 33px 0 0;
     }
 }
 
@@ -443,7 +459,7 @@ input::placeholder{
 
 @media(max-width:1023px){
     .room-size{
-        margin: -2px 69px 0 0;
+        margin: -2px 411px 0 0;
     }
 }
 
@@ -545,7 +561,7 @@ input::placeholder{
 
 @media(max-width:1023px){
     .reviews{
-        margin: 0px 65px 0 0;
+        margin: 0px 407px 0 0;
     }
 }
 .reviews__raiting{
@@ -597,7 +613,7 @@ input::placeholder{
 
 @media(max-width:1023px){
     .rooms__list h3{
-        margin: 29px 5px 19px 0;
+        margin: 31px 345px 19px 0;
     }
 }
 
@@ -696,6 +712,7 @@ input::placeholder{
     .rooms__grand{
         margin: 17px 0px 0 58px;
         padding: 20px 35px 4px 0px;
+        position: relative;
     }
 }
 
@@ -813,20 +830,27 @@ input::placeholder{
     color: #c19b76;
     font-size: 8.5px;
     line-height: 2.41;
-    padding: 0 26px 0 0;
+    padding: 6px 27px 0 22px;
     letter-spacing: 0.85px;
+    transition: 2s ease-in;
+}
+
+.rooms__list-btn:hover{
+    background-color: #151515;
 }
 
 @media(max-width:1439px){
     .rooms__list-btn{
         width: 167px;
-        height: 34px;
-        border: solid 0.5px #c19b76;
-        font-size: 9px;
-        line-height: 1.33;
-        letter-spacing: 0.9px;
-        padding: 2px 2px 0px 1px;
-        margin: 0 0px 0px 2px;
+        height: 33px;
+        border: solid 1.5px #c19b76;
+        background-color: #ffffff;
+        color: #c19b76;
+        font-size: 8.5px;
+        line-height: 1.41;
+        padding: 5px 30px 0px 24px;
+        letter-spacing: 0.85px;
+        text-align: center;
     }
 }
 
@@ -835,6 +859,7 @@ input::placeholder{
         width: 144px;
         height: 25px;
         margin: 14px 0px 0 7px;
+        padding: 2px 12px 0px 0px;
     }
 }
 
@@ -859,6 +884,17 @@ input::placeholder{
     height: 186px;
     background-size: cover;
 }
+
+.rooms__photo::before{
+    background: linear-gradient(to top, rgba(28, 28, 28, 0.2), rgba(28, 28, 28, 0.2));
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    z-index: 20;
+}
+
 
 @media(max-width:1439px){
     .rooms__photo{

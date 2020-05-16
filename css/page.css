@@ -3,23 +3,21 @@
 }
 
 .header__main{
-    background: url('../images/page/page-header@2x.jpg');
-    min-height: 283px;
+    background: url('../images/page/page-header@2x.jpg') no-repeat bottom fixed;
+    min-height: 335px;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
     text-align: center;
 }
 
 @media(max-width:1439px){
     .header__main{
-        min-height: 156px;
+        min-height: 198px;
     }
 }
 
 @media(max-width:1023px){
     .header__main{
-        min-height: 206px;
+        min-height: 243px;
     }
 }
 
@@ -37,18 +35,18 @@
         text-align: left;
         color: #ffffff;
         font-family: 'Gilda Display', serif;
-        margin: 10px 0px 0px 129px;
+        margin: 47px 0px 0px 129px;
     }
 }
 
 .header__page{
     display: flex;
-    padding-top: 240px;
+    padding-top: 291px;
 }
 
 @media(max-width:1439px){
     .header__page{
-        padding-top: 124px;
+        padding-top: 165px;
     }
 }
 
@@ -94,6 +92,8 @@
     letter-spacing: 1.35px;
     color: #ffffff;
     margin-right: 34px;
+    transition: 1s ease-in;
+    cursor: pointer;
 }
 
 @media(max-width:1439px){
@@ -104,12 +104,7 @@
 
 .page__link:hover{
     border-bottom: 2px solid  #878787;
-}
-
-@media(max-width:1439px){
-	.page__link:hover{
-    border-bottom: 2px solid  #878787;
-	}
+    color: #151515;
 }
 
 .header__page-price{
@@ -118,7 +113,13 @@
 
 @media(max-width:1439px){
 	.header__page-price{
-        display: none;
+        margin: 0px 3px 0 1px;
+    }
+}
+
+@media(max-width:1023px){
+	.header__page-price{
+        display:none;
     }
 }
 
@@ -174,7 +175,13 @@ span{
 
 @media(max-width:1439px){
     .main{
-        margin-bottom: 52px;
+        margin-bottom: 47px;
+    }
+}
+
+@media(max-width:1023px){
+    .main{
+        margin-bottom: 42px;
     }
 }
 
@@ -191,6 +198,13 @@ span{
 @media(max-width:1439px){
     .page__container{
         max-width:566px;
+        margin: 0 0px 0 357px;
+    }
+}
+
+@media screen and (max-width:1023px){
+    .page__container{
+        margin: 0 0px 0 263px;
     }
 }
 
@@ -424,7 +438,7 @@ span{
 }
 
 .page__icon_text-calendar{
-    margin: 1px 0px 0 -37px;
+    margin: 1px 0px 0 -55px;
 }
 
 @media(max-width:1439px){
@@ -813,7 +827,13 @@ span{
 .page__book_check{
     display: flex;
     padding: 0px 0px;
-    margin-bottom: 11px;
+    margin-bottom: 16px;
+}
+
+@media(max-width:1439px){
+    .page__book_check{
+        margin-bottom: 9px;
+    }
 }
 
 .page__book_check-in{
@@ -945,6 +965,11 @@ span{
     background-color: #c19b76;
     color: #fff;
     border: none;
+    transition: 2s ease-in;
+}
+
+.page__book_btn:hover{
+    background-color: #151515;
 }
 
 @media(max-width:1439px){
