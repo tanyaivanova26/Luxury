@@ -756,6 +756,7 @@ form{
 
 .suites__photos{
     display: flex;
+    position: relative;
 }
 
 @media(max-width:1439px){
